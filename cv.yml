@@ -1,0 +1,140 @@
+name: Roberto Prevato
+title: DevOps / Senior Web Developer / Systems Architect
+picture: ... link to GitHub gist, or to public endpoint in Azure Blob Service?
+
+profile: >-
+  Web applications specialist with deep understanding of HTTP web servers, clients, frameworks, and browsers. Experience built over the years, working on many single page applications and back-ends, using several frameworks, database engines, libraries, services and standards; such as ASP.NET Core and older .NET frameworks, Node.js, Express.js, Python Flask, aiohttp, React, Vue.js, KnockOut, Backbone, WebPack, browserify, MySQL, PostgreSQL, Microsoft SQL Server, MongoDB, Docker, tests frameworks. Expanded in the last two years in Azure domain, using services such as: Azure Active Directory and B2C for identity management, Azure Function, Azure SQL, CosmosDB, Storage, Service Bus, Search, Application Insights, KeyVault; and OAuth, Swagger/OpenAPI, JWT standards.
+  DevOps able to deliver complex web services and deploy them to Azure Cloud using continuous integration and delivery builds, including the preparation of ARM templates and deployment scripts. Proficient in PowerShell and Unix bash, Windows and Linux operating systems. Able to organize source code for projects in .NET, Python, ECMAScript and define  packages for these technologies (NuGet, npm, PyPi, CPython C extensions)
+
+desired_position: >-
+  DevOps and Web Solutions Architect, Azure Cloud specialist focused on PaaS, SaaS, Serverless, involved in defining systems architecture, deployment and maintenance strategies. Possibility to work with favorite technologies: Azure, Python, C#, ECMAScript, Docker and Kubernetes.
+
+skills:
+  - name: Azure
+    level: 5
+  - name: Azure DevOps
+    level: 5
+  - name: NET Framework
+    level: 5
+  - name: NET Core
+    level: 5
+  - name: Node.js
+    level: 5
+  - name: C#
+    level: 5
+  - name: Python
+    level: 5
+  - name: JavaScript
+    level: 5
+  - name: HTML5
+    level: 5
+  - name: CSS, SASS, Less
+    level: 5
+  - name: SQL, NoSQL
+    level: 5
+  - name: Docker
+    level: 4
+  - name: Kubernetes
+    level: 1
+  - name: PowerShell
+    level: 4
+  - name: Git
+    level: 5
+  - name: Testing
+    level: 5
+  - name: Visual Studio
+    level: 5
+  - name: Agile
+    level: 5
+  - name: Markdown, UML
+    level: 5
+
+
+highlights:
+  - name: GitHub
+
+
+experience:
+  - start: 03/2017
+    end: ...
+    employer: Demant Technology Centre
+    description: >-
+      Member of IT Cloud and Strategy team of William Demant Holding, with role of DevOps and Senior Cloud Developer. Key player in delivering web solutions for the whole company and producing savings.
+  - start: 03/2013
+    end: 02/2017
+    employer: Accenture
+    description: >-
+      Web applications and WCF services architect and tech lead for Forex exchange and other systems for PKO BP. Architect of integration of PKO BP systems with CERTIS, the Interbank Payment System of Czech National Bank.
+  - start: 08/2012
+    end: 03/2014
+    employer: Manpower, Avanade, Accenture
+    description: >-
+      Web developer for mBank internet banking spa, JavaScript specialist.
+  - start: 12/2011
+    end: 08/2012
+    employer: Reply, Vodafone
+    description: >-
+      C# and SQL Server developer.
+  - start: 04/2010
+    end: 12/2011
+    employer: Several clients
+    description: >-
+      Freelance web developer for several clients,
+      including Rai broadcasting company and
+      Istituto Superiore Mario Boella.
+
+
+languages:
+  - name: English
+    level: Fluent
+  - name: Italian
+    level: Native speaker
+  - name: Polish
+    level: Intermediate (speaking, reading); Basic (writing)
+
+
+education: 
+  - name: Politecnico di Torino
+    type: university
+    title: >-
+      Bachelor in
+      Design and Visual Communication (Industrial Design)
+    address: Corso Duca degli Abruzzi, 24 10129 Torino, Italy.
+    url: https://didattica.polito.it/laurea/design/en/presentation
+
+
+certificates:
+  - issuer: Microsoft
+    name: "Microsoft MCSD: Microsoft Certified Solutions Developer."
+  - issuer: Microsoft
+    name: MCSD Programming in C#.
+    when: 08/2015
+  - issuer: Microsoft
+    name: MCSD Developing Microsoft Azure and Web Services.
+    when: 12/2014
+  - issuer: Microsoft
+    name: MCSD Developing ASP.NET MVC Web Applications.
+    when: 06/2014
+  - issuer: Microsoft
+    name: MCSD Programming in HTML5 with JavaScript and CSS3.
+    when: 10/2013
+
+
+social:
+  - name: Blog
+    url: https://robertoprevato.github.io
+  - name: GitHub
+    url: https://github.com/RobertoPrevato
+  - name: Linkedin
+    url: https://www.linkedin.com/in/roberto-prevato
+
+
+contacts:
+  - type: phone
+    value: +48 792 300 586
+  - type: email
+    value: roberto.prevato@gmail.com
+
+
+according_to_insights_discovery: >-
+  I am an Inspiring Helper (Conscious Wheel Position); Supporting Helper (Less Conscious Wheel Position); all my colors are at similar levels, with dominance of yellow and green. After a face-to-face meeting, I can share my Gallup’s StrengthsFinder results from 2016 and Insights Discovery results from 2017.
