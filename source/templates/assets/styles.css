@@ -1,0 +1,89 @@
+/*
+
+@page {
+  size: A4;
+}
+
+@page :left {
+  margin-left: 3cm;
+}
+
+@page :right {
+  margin-left: 4cm;
+}
+
+@page:right{ 
+  @bottom-left {
+    margin: 10pt 0 30pt 0;
+    border-top: .25pt solid #666;
+    content: "My book";
+    font-size: 9pt;
+    color: #333;
+  }
+}
+
+*/
+
+body{
+    width: 21cm;
+    height: 29.7cm;
+    margin: 30mm 45mm 30mm 45mm;
+    font-family: 'Roboto', sans-serif;
+}
+
+#header {
+    border-top: 15px solid #158466;
+    border-bottom: 12px solid #dedede;
+    margin-bottom: .5cm;
+}
+
+.corollary {
+    width: 7cm;
+    float: left;
+    min-height: 90vh;
+    border-right: 1mm dotted #dedede;
+}
+
+.corollary .wrapper {
+    padding-left: 0;
+}
+
+.main {
+    margin-left: 7cm;
+    min-height: 90vh;
+}
+
+.wrapper {
+    padding: 0.5cm 1cm 0 1cm;
+}
+
+h1, h2, h3, h4 {
+    font-family: Roboto;
+    font-weight: lighter;
+}
+
+h2 {
+    margin: 0;
+    text-transform: uppercase;
+    color: #158466;
+}
+
+p {
+    line-height: 1.5em;
+}
+
+dl dt {
+    float: left;
+    height: 1cm;
+}
+
+dl dd {
+    height: 1cm;
+}
+
+.level {
+    color: #158466;
+    font-size: 15px;
+    padding-left: 0.5cm;
+    text-align: right;
+}

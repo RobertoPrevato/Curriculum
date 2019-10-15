@@ -136,5 +136,7 @@ contacts:
     value: roberto.prevato@gmail.com
 
 
-according_to_insights_discovery: >-
-  I am an Inspiring Helper (Conscious Wheel Position); Supporting Helper (Less Conscious Wheel Position); all my colors are at similar levels, with dominance of yellow and green. After a face-to-face meeting, I can share my Gallup’s StrengthsFinder results from 2016 and Insights Discovery results from 2017.
+according_to: 
+  name: Insights Discovery
+  description: >-
+    I am an Inspiring Helper (Conscious Wheel Position); Supporting Helper (Less Conscious Wheel Position); all my colors are at similar levels, with dominance of yellow and green. After a face-to-face meeting, I can share my Gallup’s StrengthsFinder results from 2016 and Insights Discovery results from 2017.
