@@ -88,6 +88,7 @@ p, dd {
     font-size: 15px;
     padding-left: 0.5cm;
     text-align: right;
+    line-height: inherit;
 }
 
 #contacts .fas, #contacts .fab {
