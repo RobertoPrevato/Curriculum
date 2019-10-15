@@ -6,7 +6,9 @@
     <title>{{name}} - {{title}}</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/styles.css">
+    <link href="./assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
 </head>
 <body>
     <div id="header">
@@ -25,27 +27,68 @@
                     {% endfor %}
                 </dl>
             </div>
+            <div id="contacts" class="wrapper">
+                <h2>Contacts</h2>
+                <dl>
+                    {% for contact in contacts %}
+                    <dt class="contact"><i class="{{contact.icon}}"></i></dt>
+                    {% if "url" in contact %}
+                    <dd class="value"><a href="{{contact.url}}">{{contact.value}}</a></dd>
+                    {% else %}
+                    <dd class="value">{{contact.value}}</dd>
+                    {% endif %}
+                    {% endfor %}
+                </dl>
+            </div>
         </div>
         <div class="main">
             <div class="wrapper">
                 <h2>Profile</h2>
-                <p>{{profile}}</p>
+                {% for part in profile %}
+                <p>{{part}}</p>
+                {% endfor %}
             </div>
             <div class="wrapper">
                 <h2>Desired position</h2>
                 <p>{{desired_position}}</p>
             </div>
+            <!--
             <div class="wrapper">
                 <h2>Certificates</h2>
                 <p>
                     DevOps and Web Solutions Architect, Azure Cloud specialist focused on PaaS, SaaS, Serverless, involved in defining systems architecture, deployment and maintenance strategies. Possibility to work with favorite technologies: Azure, Python, C#, ECMAScript, Docker and Kubernetes.
                 </p>
             </div>
+            -->
+            <div class="page-break"></div>
             <div class="wrapper">
                 <h2>Experience</h2>
-                <p>
-                    DevOps and Web Solutions Architect, Azure Cloud specialist focused on PaaS, SaaS, Serverless, involved in defining systems architecture, deployment and maintenance strategies. Possibility to work with favorite technologies: Azure, Python, C#, ECMAScript, Docker and Kubernetes.
-                </p>
+                <dl id="experience">
+                {% for part in experience %}
+                    <dt class="employer">{{part.employer}}</dt>
+                    <dd>{{part.start}} -> {{part.end}}</dd>
+                    <dd>{{part.description}}</dd>
+                {% endfor %}
+                </dl>
+            </div>
+            <div class="wrapper">
+                <h2>Blog posts</h2>
+                <dl id="blog">
+                {% for part in blog_posts %}
+                    <dt class="title">{{part.title}}</dt>
+                    <dd class="date">{{part.date}}</dd>
+                    <dd>{{part.description}}</dd>
+                {% endfor %}
+                </dl>
+            </div>
+            <div class="wrapper">
+                <h2>Projects</h2>
+                <dl id="projects">
+                {% for part in projects %}
+                    <dt class="title">{{part.name}}</dt>
+                    <dd>{{part.description}}</dd>
+                {% endfor %}
+                </dl>
             </div>
         </div>
     </div>

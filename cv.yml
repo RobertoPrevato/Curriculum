@@ -2,12 +2,11 @@ name: Roberto Prevato
 title: DevOps / Senior Web Developer / Systems Architect
 picture: ... link to GitHub gist, or to public endpoint in Azure Blob Service?
 
-profile: >-
-  Web applications specialist with deep understanding of HTTP web servers, clients, frameworks, and browsers. Generalist profile. Experience built over the years, working on many single page applications and back-end services as full stack developer. Back-end experience mostly with Microsoft technologies: C#, SQL Server, EntityFramework, currently working with the latest ASP.NET Core web framework and .NET Core runtime, but having experience of older .NET frameworks and standards, such as ASP.NET Web Forms, ASP.NET MVC, OWIN, and WCF. Front-end experience in several libraries and frameworks: JavaScript, EcmaScript 2015 and 2017, jQuery, Backbone, Require.js, Knockout.js, React, Vue.js, D3.js, including boilerplate with Grunt, Gulp, Browserify, WebPack.
-  Now working as DevOps and Azure specialist, with the responsibility of delivering complex web services, and deploying them to Azure Cloud using continuous integration and delivery builds, through ARM templates and deployment scripts. Having administration responsibility over several Azure tenants, including Azure B2C tenants and their user flows, Azure API Management, and also Azure DevOps organizations and their projects.
-  
-  Expanded in the last two years in Azure domain, using services such as: Azure Active Directory and B2C for identity management, Azure Function, Azure SQL, CosmosDB, Storage, Service Bus, Search, Application Insights, KeyVault; and OAuth, Swagger/OpenAPI, JWT standards. 
-  DevOps able to deliver complex web services and deploy them to Azure Cloud using continuous integration and delivery builds, including the preparation of ARM templates and deployment scripts. Proficient in PowerShell and Unix bash, Windows and Linux operating systems. Able to organize source code for projects in .NET, Python, ECMAScript and define  packages for these technologies (NuGet, npm, PyPi, CPython C extensions).
+profile:
+  - "Web applications specialist with deep understanding of HTTP web servers, clients, frameworks, and browsers. Generalist profile, with ten years of experience in building back-end services and single page applications as full stack developer. Having back-end experience mostly with Microsoft technologies: C#, ASP.NET Core web framework and .NET Core runtime, SQL Server, Entity Framework, older .NET frameworks and standards, ASP.NET Web Forms, ASP.NET MVC, OWIN, and WCF. Front-end experience in several libraries and frameworks: JavaScript, ECMAScript 2015 and 2017, jQuery, Backbone, Require.js, Knockout.js, React, Vue.js, D3.js, including boilerplates for Grunt, Gulp, Browserify, WebPack."
+  - "Now working as DevOps and Azure specialist, with the responsibility of delivering complex web services, deploying them to Azure Cloud using continuous integration and delivery builds, preparing ARM templates and deployment scripts, and implementing High Availability, Monitoring, Logging, Backups. Having administrative access over several Azure tenants and subscriptions, Azure Active Directory B2C tenants and their user flows, Azure API Management, and Azure DevOps organizations and their projects."
+  - "Focused in the last two years in Azure domain, using services such as: Azure Active Directory and B2C for identity management, Azure Functions, Azure SQL, CosmosDB, Storage, Service Bus, Search, Application Insights, KeyVault, Container Instances; and standards: OAuth, OpenID Connect, Swagger/OpenAPI, JWT."
+  - "Proficient in PowerShell and Unix bash, Windows and Linux operating systems. Able to organize source code for projects in .NET, Python, ECMAScript and define  packages for these technologies (NuGet, npm, PyPi, CPython C extensions)."
 
 desired_position: >-
   DevOps and Web Solutions Architect, Azure Cloud specialist focused on PaaS, SaaS, Serverless, involved in defining systems architecture, deployment and maintenance strategies, and Cloud governance. Possibility to work with favorite technologies: Azure, Python, C#, ECMAScript, Docker and Kubernetes.
@@ -55,13 +54,60 @@ skills:
     level: 5
 
 
+blog_posts:
+  - title: Self-hosted Azure DevOps agents running in Docker
+    date: 20 July 2019
+    url: https://robertoprevato.github.io/Self-hosted-Azure-DevOps-agents-running-in-Docker/
+  - title: Presenting BlackSheep, one of today's fastest web frameworks for Python
+    date: 12 June 2019
+    url: https://robertoprevato.github.io/Presenting-BlackSheep/
+  - title: Validating JSON web tokens (JWTs) from Azure AD, in Python
+    date: 24 October 2018
+    url: https://robertoprevato.github.io/Validating-JWT-Bearer-tokens-from-Azure-AD-in-Python/
+  - title: How I created my own media storage in Azure
+    date: 06 August 2018
+    url: https://robertoprevato.github.io/How-I-created-my-own-media-storage-in-Azure/
+  - title: More about Linux vs Windows hosted ASP NET Core applications in Azure Application Service Plan
+    date: 26 October 2017
+    url: https://robertoprevato.github.io/Upgrading-Azure-Storage-Python-SDK-to-support-asyncio/
+  - title: Comparing Linux hosted to Windows hosted ASP.NET Core applications in Azure Application Service Plan
+    date: 23 October 2017
+    url: https://robertoprevato.github.io/Comparing-Linux-hosted-to-Windows-hosted-ASP-NET-Core-applications-in-Azure-Application-Service-Plan/
+  - title: Running Docker applications in Azure Application Service Plan
+    date: 13 October 2017
+    url: https://robertoprevato.github.io/Running-Docker-applications-in-Azure/
+  - title: How to run Python PyPy powered web apps in Docker
+    date: 07 October 2017
+    url: https://robertoprevato.github.io/How-to-run-PyPy-powered-web-apps-in-Docker/
+  - title: How to provision Azure resources using Azure CLI 2.0 and ARM templates
+    date: 06 October 2017
+    href: https://robertoprevato.github.io/How-to-provision-Azure-resources-using-Azure-CLI-and-ARM-templates/
+  - title: Things I would have liked to know about Azure Search
+    date: 03 August 2017
+    href: https://robertoprevato.github.io/Things-I-would-have-liked-to-know-about-Azure-Search/
+
+
+projects:
+  - name: BlackSheep
+    description: Asynchronous web framework to build event based, non-blocking Python web applications. It is inspired by Flask, ASP.NET Core, and the work by Yury Selivanov.
+    href: https://github.com/RobertoPrevato/BlackSheep
+    pypi: https://pypi.org/project/blacksheep/
+  - name: AzureDevOps-agents
+    description: Images for self-hosted DevOps agents running in Docker.
+    href: https://github.com/RobertoPrevato/AzureDevOps-agents
+  - name: rodi
+    description: Implementation of dependency injection for Python 3, using PEP 484 and naming conventions. Unintrusive api, inspired by NET Core dependency injection.
+    href: https://github.com/RobertoPrevato/rodi
+    pypi: https://pypi.org/project/rodi/
+
+
 highlights:
   - name: GitHub
 
 
 experience:
   - start: 03/2017
-    end: ...
+    end: current
     employer: Demant Technology Centre
     description: >-
       Member of IT Cloud and Strategy team of William Demant Holding, with role of DevOps and Senior Cloud Developer. Key player in delivering web solutions for the whole company and producing savings.
@@ -125,20 +171,20 @@ certificates:
     when: 10/2013
 
 
-social:
-  - name: Blog
-    url: https://robertoprevato.github.io
-  - name: GitHub
-    url: https://github.com/RobertoPrevato
-  - name: Linkedin
-    url: https://www.linkedin.com/in/roberto-prevato
-
-
 contacts:
-  - type: phone
+  - icon: fas fa-phone
     value: +48 792 300 586
-  - type: email
+  - icon: fas fa-envelope
     value: roberto.prevato@gmail.com
+  - value: GitHub
+    icon: fab fa-github
+    url: https://github.com/RobertoPrevato
+  - value: Linkedin
+    icon: fab fa-linkedin-in
+    url: https://www.linkedin.com/in/roberto-prevato
+  - value: Blog
+    icon: fas fa-feather-alt
+    url: https://robertoprevato.github.io
 
 
 according_to: 

@@ -1,40 +1,41 @@
-/*
+@media print {
+    @page { 
+        margin: 20mm 25mm 20mm 25mm;
+    }
 
-@page {
-  size: A4;
+    body {
+        padding: 0 !important;
+    }
 }
 
-@page :left {
-  margin-left: 3cm;
+@page:right{
+    @bottom-right {
+      content: counter(page);
+    }
 }
-
-@page :right {
-  margin-left: 4cm;
-}
-
-@page:right{ 
-  @bottom-left {
-    margin: 10pt 0 30pt 0;
-    border-top: .25pt solid #666;
-    content: "My book";
-    font-size: 9pt;
-    color: #333;
-  }
-}
-
-*/
 
 body{
     width: 21cm;
     height: 29.7cm;
-    margin: 30mm 45mm 30mm 45mm;
+    padding: 20mm 35mm 20mm 35mm;
     font-family: 'Roboto', sans-serif;
+    /*font-family: 'Montserrat', sans-serif;*/
+}
+
+.page-break {
+    page-break-after: always;
 }
 
 #header {
     border-top: 15px solid #158466;
     border-bottom: 12px solid #dedede;
     margin-bottom: .5cm;
+
+    background-image: url('roberto-prevato.jpg');
+    background-position-y: top;
+    background-position-x: right;
+    background-size: 121px;
+    background-repeat: no-repeat;
 }
 
 .corollary {
@@ -59,6 +60,7 @@ body{
 
 h1, h2, h3, h4 {
     font-family: Roboto;
+    /*font-family: Montserrat;*/
     font-weight: lighter;
 }
 
@@ -68,16 +70,16 @@ h2 {
     color: #158466;
 }
 
-p {
+p, dd {
     line-height: 1.5em;
 }
 
-dl dt {
+.corollary dl dt {
     float: left;
     height: 1cm;
 }
 
-dl dd {
+.corollary dl dd {
     height: 1cm;
 }
 
@@ -86,4 +88,28 @@ dl dd {
     font-size: 15px;
     padding-left: 0.5cm;
     text-align: right;
+}
+
+#contacts .fas, #contacts .fab {
+    font-size: 20px;
+    color: #158365;
+}
+
+.employer {
+    font-weight: bold;
+}
+
+.main dd {
+    margin: 0.3cm 0 0 1cm;
+}
+
+.main dt {
+    margin: 0.5cm 0;
+}
+
+/*.main dt:not(:nth-child(1))*/
+
+.main dt {
+    border-top: 1mm dotted #efefef;
+    padding-top: 5mm;
 }

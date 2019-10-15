@@ -1,4 +1,4 @@
-from rocore.folders import ensure_folder
+from essentials.folders import ensure_folder
 from jinja2 import Environment, Template, PackageLoader, select_autoescape
 from conf import load_configuration
 
@@ -31,4 +31,4 @@ if __name__ == '__main__':
 
     gen = JinjaGenerator()
     gen.generate()
-
+    print('[*] CV was generated.')
