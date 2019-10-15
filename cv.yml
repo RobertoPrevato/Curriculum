@@ -3,11 +3,14 @@ title: DevOps / Senior Web Developer / Systems Architect
 picture: ... link to GitHub gist, or to public endpoint in Azure Blob Service?
 
 profile: >-
-  Web applications specialist with deep understanding of HTTP web servers, clients, frameworks, and browsers. Experience built over the years, working on many single page applications and back-ends, using several frameworks, database engines, libraries, services and standards; such as ASP.NET Core and older .NET frameworks, Node.js, Express.js, Python Flask, aiohttp, React, Vue.js, KnockOut, Backbone, WebPack, browserify, MySQL, PostgreSQL, Microsoft SQL Server, MongoDB, Docker, tests frameworks. Expanded in the last two years in Azure domain, using services such as: Azure Active Directory and B2C for identity management, Azure Function, Azure SQL, CosmosDB, Storage, Service Bus, Search, Application Insights, KeyVault; and OAuth, Swagger/OpenAPI, JWT standards.
-  DevOps able to deliver complex web services and deploy them to Azure Cloud using continuous integration and delivery builds, including the preparation of ARM templates and deployment scripts. Proficient in PowerShell and Unix bash, Windows and Linux operating systems. Able to organize source code for projects in .NET, Python, ECMAScript and define  packages for these technologies (NuGet, npm, PyPi, CPython C extensions)
+  Web applications specialist with deep understanding of HTTP web servers, clients, frameworks, and browsers. Generalist profile. Experience built over the years, working on many single page applications and back-end services as full stack developer. Back-end experience mostly with Microsoft technologies: C#, SQL Server, EntityFramework, currently working with the latest ASP.NET Core web framework and .NET Core runtime, but having experience of older .NET frameworks and standards, such as ASP.NET Web Forms, ASP.NET MVC, OWIN, and WCF. Front-end experience in several libraries and frameworks: JavaScript, EcmaScript 2015 and 2017, jQuery, Backbone, Require.js, Knockout.js, React, Vue.js, D3.js, including boilerplate with Grunt, Gulp, Browserify, WebPack.
+  Now working as DevOps and Azure specialist, with the responsibility of delivering complex web services, and deploying them to Azure Cloud using continuous integration and delivery builds, through ARM templates and deployment scripts. Having administration responsibility over several Azure tenants, including Azure B2C tenants and their user flows, Azure API Management, and also Azure DevOps organizations and their projects.
+  
+  Expanded in the last two years in Azure domain, using services such as: Azure Active Directory and B2C for identity management, Azure Function, Azure SQL, CosmosDB, Storage, Service Bus, Search, Application Insights, KeyVault; and OAuth, Swagger/OpenAPI, JWT standards. 
+  DevOps able to deliver complex web services and deploy them to Azure Cloud using continuous integration and delivery builds, including the preparation of ARM templates and deployment scripts. Proficient in PowerShell and Unix bash, Windows and Linux operating systems. Able to organize source code for projects in .NET, Python, ECMAScript and define  packages for these technologies (NuGet, npm, PyPi, CPython C extensions).
 
 desired_position: >-
-  DevOps and Web Solutions Architect, Azure Cloud specialist focused on PaaS, SaaS, Serverless, involved in defining systems architecture, deployment and maintenance strategies. Possibility to work with favorite technologies: Azure, Python, C#, ECMAScript, Docker and Kubernetes.
+  DevOps and Web Solutions Architect, Azure Cloud specialist focused on PaaS, SaaS, Serverless, involved in defining systems architecture, deployment and maintenance strategies, and Cloud governance. Possibility to work with favorite technologies: Azure, Python, C#, ECMAScript, Docker and Kubernetes.
 
 skills:
   - name: Azure
@@ -18,7 +21,7 @@ skills:
     level: 5
   - name: NET Core
     level: 5
-  - name: Node.js
+  - name: ASP.NET Core
     level: 5
   - name: C#
     level: 5
@@ -26,27 +29,29 @@ skills:
     level: 5
   - name: JavaScript
     level: 5
+  - name: Node.js
+    level: 4
   - name: HTML5
     level: 5
   - name: CSS, SASS, Less
     level: 5
-  - name: SQL, NoSQL
-    level: 5
-  - name: Docker
-    level: 4
-  - name: Kubernetes
-    level: 1
-  - name: PowerShell
-    level: 4
   - name: Git
     level: 5
-  - name: Testing
-    level: 5
-  - name: Visual Studio
-    level: 5
-  - name: Agile
-    level: 5
+  - name: SQL, NoSQL
+    level: 3
+  - name: Docker
+    level: 4
+  - name: Kubernetes, Helm
+    level: 1
+  - name: PowerShell
+    level: 3
+  - name: Bash
+    level: 3
   - name: Markdown, UML
+    level: 5
+  - name: xUnit
+    level: 5
+  - name: pytest
     level: 5
 
 
