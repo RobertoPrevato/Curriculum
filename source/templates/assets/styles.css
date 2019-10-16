@@ -34,12 +34,22 @@ body{
     border-top: 15px solid #158466;
     border-bottom: 12px solid #dedede;
     margin-bottom: .5cm;
-
+    position: relative;
+    /*
+    PDF becomes very heavy when background images are used instead of img elements; curious...
+    
     background-image: url('roberto-prevato.jpg');
     background-position-y: top;
     background-position-x: right;
     background-size: 121px;
     background-repeat: no-repeat;
+    */
+}
+
+#header img {
+    position: absolute;
+    right: 0;
+    top: 0;
 }
 
 .corollary {
