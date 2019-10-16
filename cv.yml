@@ -1,0 +1,275 @@
+name: Roberto Prevato
+title: DevOps / Senior Web Developer / Systems Architect
+picture: ... link to GitHub gist, or to public endpoint in Azure Blob Service?
+
+profile:
+  - "Web applications specialist with deep understanding of HTTP web servers, clients, frameworks, and browsers. Generalist profile, with ten years of experience in building back-end services and single page applications as full stack developer. Having back-end experience mostly with Microsoft technologies: C#, ASP.NET Core web framework and .NET Core runtime, SQL Server, Entity Framework, older .NET frameworks and standards: ASP.NET Web Forms, ASP.NET MVC, OWIN, and WCF. Front-end experience in: JavaScript, ECMAScript 2015 and 2017, jQuery, Backbone, Require.js, Knockout.js, React, Vue.js, D3.js, including preparation of boilerplates for Grunt, Gulp, Browserify, WebPack."
+  - "Now working as DevOps and Azure specialist, with the responsibility of delivering complex web services, deploying them to Azure Cloud using continuous integration and delivery builds, preparing ARM templates and deployment scripts, and implementing high availability, monitoring, logging, automated backups and other maintenance activities. Having administrative access over several Azure tenants and subscriptions, Azure Active Directory B2C tenants and their user flows, Azure API Management, and Azure DevOps organizations and their projects."
+  - "Focused in the last two years in Azure domain, using services such as: Azure Active Directory and B2C for identity management, Azure Functions, Azure SQL, Application Insights, Traffic Manager, CosmosDB, Storage, Service Bus, Search, Application Insights, Key Vault, Container Instances; and standards: OAuth, OpenID Connect, Swagger/OpenAPI, JWT."
+  - "Proficient in PowerShell and Unix bash, Windows and Linux operating systems. Able to organize source code for projects in .NET, Python, ECMAScript and create packages for these technologies (NuGet, npm, PyPi, CPython C extensions)."
+
+desired_position: >-
+  DevOps and Web Solutions Architect, Azure Cloud specialist focused on PaaS, SaaS, Serverless, involved in defining systems architecture, deployment and maintenance strategies, and Cloud governance. Possibility to work with favorite technologies: Azure, Python, C#, ECMAScript, Docker and Kubernetes.
+
+skills:
+  - name: Azure
+    level: 5
+  - name: Azure DevOps
+    level: 5
+  - name: NET Framework
+    level: 5
+  - name: NET Core
+    level: 5
+  - name: ASP.NET Core
+    level: 5
+  - name: C#
+    level: 5
+  - name: Python
+    level: 5
+  - name: JavaScript
+    level: 5
+  - name: Node.js
+    level: 4
+  - name: HTML5
+    level: 5
+  - name: CSS, SASS, Less
+    level: 5
+  - name: Git
+    level: 5
+  - name: SQL, NoSQL
+    level: 3
+  - name: Docker
+    level: 4
+  - name: Kubernetes, Helm
+    level: 1
+  - name: PowerShell
+    level: 3
+  - name: Bash
+    level: 3
+  - name: Markdown, UML
+    level: 5
+  - name: xUnit
+    level: 5
+  - name: pytest
+    level: 5
+
+           
+blog_posts:
+  - title: Self-hosted Azure DevOps agents running in Docker
+    date: 07/2019
+    url: https://robertoprevato.github.io/Self-hosted-Azure-DevOps-agents-running-in-Docker/
+  - title: Presenting BlackSheep, one of today's fastest web frameworks for Python
+    date: 06/2019
+    url: https://robertoprevato.github.io/Presenting-BlackSheep/
+  - title: Validating JSON web tokens (JWTs) from Azure AD, in Python
+    date: 10/2018
+    url: https://robertoprevato.github.io/Validating-JWT-Bearer-tokens-from-Azure-AD-in-Python/
+  - title: How I created my own media storage in Azure
+    date: 08/2018
+    url: https://robertoprevato.github.io/How-I-created-my-own-media-storage-in-Azure/
+  - title: More about Linux vs Windows hosted ASP NET Core applications in Azure Application Service Plan
+    date: 10/2017
+    url: https://robertoprevato.github.io/Upgrading-Azure-Storage-Python-SDK-to-support-asyncio/
+  - title: Comparing Linux hosted to Windows hosted ASP.NET Core applications in Azure Application Service Plan
+    date: 10/2017
+    url: https://robertoprevato.github.io/Comparing-Linux-hosted-to-Windows-hosted-ASP-NET-Core-applications-in-Azure-Application-Service-Plan/
+  - title: Running Docker applications in Azure Application Service Plan
+    date: 10/2017
+    url: https://robertoprevato.github.io/Running-Docker-applications-in-Azure/
+  - title: How to run Python PyPy powered web apps in Docker
+    date: 10/2017
+    url: https://robertoprevato.github.io/How-to-run-PyPy-powered-web-apps-in-Docker/
+  - title: How to provision Azure resources using Azure CLI 2.0 and ARM templates
+    date: 10/2017
+    href: https://robertoprevato.github.io/How-to-provision-Azure-resources-using-Azure-CLI-and-ARM-templates/
+  - title: Things I would have liked to know about Azure Search
+    date: 08/2017
+    href: https://robertoprevato.github.io/Things-I-would-have-liked-to-know-about-Azure-Search/
+
+
+projects:
+  - name: BlackSheep
+    description: Asynchronous web framework to build event based, non-blocking Python web applications. It is inspired by Flask, ASP.NET Core, and the work by Yury Selivanov. BlackSheep includes a web framework and an implementation of HTTP client, and is ASGI compatible. Originally it included an implementation of HTTP Server, and performed well in the last round of benchmarks from TechEmpower. However, the decision of separating the web framework and making it compatible with ASGI servers is a good one, as it enables focusing on relatively high level features. Two project templates, for MVC architecture and empty APIs, are provided in dedicated repositories.
+    href: https://github.com/RobertoPrevato/BlackSheep
+    pypi: https://pypi.org/project/blacksheep/
+  - name: AzureDevOps-agents
+    description: Images for self-hosted DevOps agents running in Docker. These agents use Ubuntu 16.04 and Ubuntu 18.04. Dockerfiles for Python, NET Core, and Node.js workloads are published in the repository.
+    href: https://github.com/RobertoPrevato/AzureDevOps-agents
+  - name: rodi
+    description: Implementation of dependency injection for Python 3, using PEP 484 and naming conventions. Unintrusive api, inspired by NET Core dependency injection.
+    href: https://github.com/RobertoPrevato/rodi
+    pypi: https://pypi.org/project/rodi/
+  - name: roconfiguration
+    description: Key-value pair based configuration for Python applications, inspired by the solution implemented to handle configuration in NET Core.
+    href: https://github.com/RobertoPrevato/roconfiguration
+    pypi: https://pypi.org/project/roconfiguration/
+  - name: KingTable
+    description: Library for administrative tables that are able to build themselves, on the basis of the input data.
+    href: https://github.com/RobertoPrevato/KingTable
+    npm: https://www.npmjs.com/package/kingtable
+    break: true
+  - name: jQuery-KingTable
+    description: jQuery plugin for administrative tables that are able to build themselves, on the basis of the input data.
+    href: https://github.com/RobertoPrevato/jQuery-KingTable
+  - name: DataEntry
+    description: Forms validation library that implements Promise based validation of fields and forms, automatic decoration of fields, localized error messages. Integrable with Angular, Backbone, Knockout, React, Vue.js. Examples for use with React and Vue.js are provided in dedicated repositories.
+    href: https://github.com/RobertoPrevato/DataEntry
+    npm: https://www.npmjs.com/package/dataentry
+  - name: GuardPost
+    description: Basic framework to handle authentication and authorization in any kind of Python application, inspired by authentication and authorization in ASP.NET Core.
+    href: https://github.com/RobertoPrevato/GuardPost
+    pypi: https://pypi.org/project/guardpost/
+  - name: Gallerist
+    description: Classes and methods to handle pictures for the web, using Python Pillow to resize pictures in desired sizes. Gallerist is an abstraction layer on top of Pillow, to simplify the task of resizing original pictures in various sizes, for the web.
+    href: https://github.com/RobertoPrevato/Gallerist
+    pypi: https://pypi.org/project/gallerist
+  - name: Gallerist-AzureStorage
+    description: Classes to handle pictures stored in Azure Storage Blob Service with Gallerist.
+    href: https://github.com/RobertoPrevato/Gallerist-AzureStorage
+    pypi: https://pypi.org/project/gallerist-azurestorage/
+  - name: Gallerist-AzureFunctions
+    description: Python Azure Functions v2 to process images for the web. This repository contains a ready-to-use solution to have resizing of pictures in the serverless service offered by Microsoft.
+    href: https://github.com/RobertoPrevato/Gallerist-AzureFunctions
+  - name: wrktoolbox
+    description: wrktoolbox is a tool to run benchmarks with wrk and wrk2, parse and store their results, and generate reports. I provided Dockerfiles to use wrk and wrk2 on Alpine and Ubuntu. wrktoolbox is designed to be used in Docker containers, in services like Azure Container Instances, to run load tests from several locations in the World.
+    href: https://github.com/RobertoPrevato/wrktoolbox
+    pypi: https://pypi.org/project/wrktools/
+
+out:
+  - name: And others...
+    description: Other contributions include a tiny solution to implement localization in web applications (I.js), a tool to convert pictures in Base64 encoded strings, a solution for dependency injection in 100 lines of JavaScript (R.js).
+    href: https://github.com/RobertoPrevato/
+
+
+experience:
+  - start: 03/2017
+    end: current
+    employer: Demant Technology Centre
+    description: >-
+      Member of IT Cloud and Strategy team of Demant (former William Demant Holding), with role of DevOps and Senior Cloud Developer. Key player in delivering web solutions for the whole company and producing savings.
+      Examples of web applications I developed alone during this job are:
+      <ul>
+        <li><strong>HI QMS:</strong> system to store, index, and grant access to QMS documents for the whole company (related to ISO 9000 family compliance). The system comprises of a back-end using ASP.NET Core, Azure Storage to store documents and metadata in the most cost-effective way, Azure Search to index uploaded files and provide search feature, Azure Service Bus for service integrations, Azure Logic App to send email notifications when documents are updated; and a front-end SPA implemented in React, that lets users update documents, upload files, configure a tree view, and download files.</li>
+        <li><strong>Signing Service:</strong> web api to generate digital signatures, using RSA keys stored in Azure Key Vault. Service implemented using ASP.NET Core, integrated with company AAD, published in Azure API Management.</li>
+        <li><strong>One Customer:</strong> web api handling end customers information, integrated with Microsoft Graph API and Azure AAD B2C tenants.</li>
+        <li><strong>Account Service:</strong> web service responsible of serving static assets for public facing pages and HTML bodies of emails sent to Demant's end customers, and Universal Links configuration for mobile apps (Android and iOS). This service features complex CI and CD pipelines to generate contents from HTML templates and locales configured in dedicated files, using a dedicated CLI implemented using Python 3, Click, Jinja2, and other libraries.</li>
+      </ul>
+    address: al. Jana Pawła II 22 – 00-133 Warszawa (Poland)
+  - start: 03/2014
+    end: 02/2017
+    employer: Accenture
+    description: >-
+      Architect and tech lead for the creation of web applications and WCF services for Forex exchange and other systems for PKO BP (the biggest bank in Poland). Architect of the integration of PKO BP systems with CERTIS, the Interbank Payment System of Czech National Bank.
+      Development of four web applications, one of which a responsive application for mobile, front-ends, and WCF services. Implementation of automated deployment using GruntJS tasks. Core functionalities like localization strategy, navigation, front end using Knockout library, jQuery, Bootstrap, authorization, security (Antiforgery, Encryption, etc.).
+    address: Accenture office in Warsaw, Warsaw Towers ul. Sienna 39 – 00-121 Warszawa (Poland)
+  - start: 08/2012
+    end: 03/2014
+    employer: Manpower, Avanade, Accenture
+    description: >-
+      Web developer for mBank internet banking spa, JavaScript specialist.
+      Working on the modules AddressBook, Investment Funds, Dashboard, Payments for the mBank new Internet Banking; LiveSearch implementation in Payments module; navigation to Settings pages; implementation of the Facebook integration
+    address: Accenture office in Warsaw, Warsaw Towers ul. Sienna 39 00-121 Warszawa (Poland) / Avanade office in Milano (Italy)
+  - start: 12/2011
+    end: 08/2012
+    employer: Reply, Vodafone
+    address: Cluster Reply, Via Cardinal Massaia 83 – 10147 Torino (Italy)
+    description: >-
+      C# and SQL Server desktop development for Vodafone Italy, Italian telephony company, for a GIS application made with Windows Forms. Web development of .NET web applications with ExtNet library. This work involved gathering and maintaining geographical data about GSM and UMTS coverage on Italian territory, Handover data, and other information.
+      Common activities of this job were: development of stored procedures for SQL Server, scheduling jobs to distribute data across linked servers, C#  object oriented programming. The main tools used for this job were: Microsoft Visual Studio 2010, Microsoft Visual Studio Team System 2008, SQL Server Management studio, Visual Sourcesafe, Chart FX, Janus GridEx and TatukGIS system.
+  - start: 10/2010
+    end: 12/2011
+    employer: Rai broadcasting company
+    address: >-
+      GFI Italia, Via Mosca 52 – 00142 Roma (earlier),
+      Solgenia Group, Via Mosca 52 – 00142 Roma (later)
+    description: >-
+      Web developer to build applications for Rai Italian national broadcasting company. Using: .NET Framework, VB.NET, JavaScript, HTML, CSS, SQL Server, XML, AJAX, jQuery. 
+      Examples of web applications I developerd alone during this job are:
+      <ul>
+        <li><strong>Censimento Fonia:</strong> application to manage and maintain Rai telephone numbers information;</li>
+        <li><strong>Scheda Proposta Radio:</strong> application to open, carry on and manage ticket requests about new radiophonic programs;</li>
+        <li><strong>Richieste Diritti:</strong> application to open, carry on and manage ticket requests about transmissions rights.</li>
+      </ul>
+  - start: 09/2010
+    end: 02/2011
+    employer: ISMB (Istituto Superiore Mario Boella)
+    address: Via Pier Carlo Boggio 61 – 10138 Torino (Italy)
+    description: >-
+      Teacher of graphic design and CSS development.
+      Three hours a week lessons of graphic design, CSS, use of the GIMP and Inkscape.
+  - start: 07/2010
+    end: 09/2011
+    employer: Open Vision
+    address: Via Principe Tommaso 36 bis – 10125 Torino (Italy)
+    description: >-
+      Freelance graphic designer.
+      Job of graphic design to develop contents for e-Learning courses, for Open Vision and Sai Assicurazioni, Italian insurance company.
+  - start: 04/2010
+    end: 05/2010
+    employer: Forma-@ttiva
+    address: Via Principe Tommaso 36 bis – 10125 Torino (Italy)
+    description: >-
+      Teacher of web development
+      Teaching for a 80 hours Web Development base level course (HTML, XHTML, CSS, JavaScript, W3C validated websites, web standards and usability principles).
+
+
+languages:
+  - name: English
+    level: Fluent
+  - name: Italian
+    level: Native speaker
+  - name: Polish
+    level: Intermediate (speaking, reading); Basic (writing)
+
+
+education: 
+  - name: Politecnico di Torino
+    type: university
+    description: >-
+      Bachelor in
+      Design and Visual Communication (Industrial Design)
+    address: Corso Duca degli Abruzzi, 24 10129 Torino, Italy.
+    url: https://didattica.polito.it/laurea/design/en/presentation
+
+
+certificates:
+  - issuer: Microsoft
+    name: "Microsoft MCSD: Microsoft Certified Solutions Developer."
+    when: 08/2015
+  - issuer: Microsoft
+    name: MCSD Programming in C#.
+    when: 08/2015
+  - issuer: Microsoft
+    name: MCSD Developing Microsoft Azure and Web Services.
+    when: 12/2014
+  - issuer: Microsoft
+    name: MCSD Developing ASP.NET MVC Web Applications.
+    when: 06/2014
+  - issuer: Microsoft
+    name: MCSD Programming in HTML5 with JavaScript and CSS3.
+    when: 10/2013
+
+
+contacts:
+  - icon: fas fa-phone
+    value: +48 792 300 586
+  - icon: fas fa-envelope
+    value: roberto.prevato@gmail.com
+  - value: GitHub
+    icon: fab fa-github-alt
+    url: https://github.com/RobertoPrevato
+  - value: Linkedin
+    icon: fab fa-linkedin-in
+    url: https://www.linkedin.com/in/roberto-prevato
+  - value: Twitter
+    icon: fab fa-twitter
+    url: https://twitter.com/RobertoPrevato
+  - value: Blog
+    icon: fas fa-feather-alt
+    url: https://robertoprevato.github.io
+
+
+notes: 
+  - title: According to Insights Discovery...
+    text: >-
+      I am an Inspiring Helper (Conscious Wheel Position); Supporting Helper (Less Conscious Wheel Position); all my colors are at similar levels, with dominance of yellow and green. If desired, I can share my Gallup’s StrengthsFinder results from 2016 and Insights Discovery results from 2017.
