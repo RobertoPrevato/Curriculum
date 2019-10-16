@@ -26,6 +26,10 @@ body{
     page-break-after: always;
 }
 
+.page-break-before {
+    page-break-before: always;
+}
+
 #header {
     border-top: 15px solid #158466;
     border-bottom: 12px solid #dedede;
@@ -43,6 +47,7 @@ body{
     float: left;
     min-height: 90vh;
     border-right: 1mm dotted #dedede;
+    height: 29.4cm;
 }
 
 .corollary .wrapper {
@@ -96,8 +101,18 @@ p, dd {
     color: #158365;
 }
 
-.employer {
+.entity {
     font-weight: bold;
+}
+
+.period {
+    margin-left: 8mm;
+    font-style: italic;
+}
+
+.address {
+    font-style: italic;
+    font-size: 0.85rem;
 }
 
 .main dd {
@@ -114,3 +129,79 @@ p, dd {
     border-top: 1mm dotted #efefef;
     padding-top: 5mm;
 }
+
+.row-wrapper {
+    padding: 1cm 0 0 0;
+    border-top: 1mm dotted #dedede;
+    margin-top: 1cm;
+}
+
+.tldr {
+    clear: both;
+}
+
+.tldr dt {
+    margin-top: 0.5cm;
+    margin-bottom: 2mm;
+}
+
+.tldr dd {
+    margin: 1mm 0 0 1cm;
+}
+
+.tldr ul li {
+    margin: 2mm 0;
+    line-height: 1.5rem;
+    font-size: 0.9rem;
+}
+
+h2 i {
+    margin-left: 4mm;
+}
+
+.corollary h2 i, .main h2 i {
+    display: none;
+}
+
+dl#experience dt:not(:nth-child(1)) {
+    margin-top: 8mm;
+}
+
+#projects dt strong {
+    margin-right: 4mm;
+}
+
+.links {
+    margin-top: 1mm;
+    display: inline-block;
+}
+
+.links i {
+    font-size: 1.2rem;
+    color: #158466;
+    margin: 0 2mm 0 0;
+    vertical-align: bottom;
+}
+
+#projects dd {
+    margin-bottom: .8cm;
+}
+
+i.fas.fa-external-link-alt {
+    margin-left: 1cm;
+    color: #158466;
+}
+
+/*
+#projects dt {
+    float: left;
+    margin-top: 0.2mm;
+}
+
+#projects dd {
+    margin-left: 5cm;
+    padding-top: 0mm;
+    margin-top: 1mm;
+    border-bottom: 1px dotted #dedede;
+}
+*/
