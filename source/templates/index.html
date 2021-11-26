@@ -46,7 +46,7 @@
             <div class="wrapper">
                 <h2>Profile <i class="far fa-address-card"></i></h2>
                 {% for part in profile %}
-                <p>{{part}}</p>
+                <p>{{part | safe}}</p>
                 {% endfor %}
             </div>
             <div class="wrapper">

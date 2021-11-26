@@ -3,33 +3,66 @@ title: DevOps / Senior Web Developer / Systems Architect
 picture: ... link to GitHub gist, or to public endpoint in Azure Blob Service?
 
 profile:
-  - "Web applications specialist with deep understanding of HTTP web servers, clients, frameworks, and browsers. Generalist profile, with ten years of experience in building back-end services and single page applications as full stack developer. Having back-end experience mostly with Microsoft technologies: C#, ASP.NET Core web framework and .NET Core runtime, SQL Server, Entity Framework, older .NET frameworks and standards: ASP.NET Web Forms, ASP.NET MVC, OWIN, and WCF. Front-end experience in: JavaScript, ECMAScript 2015 and 2017, jQuery, Backbone, Require.js, Knockout.js, React, Vue.js, D3.js, including preparation of boilerplates for Grunt, Gulp, Browserify, WebPack."
-  - "Now working as DevOps and Azure specialist, with the responsibility of delivering complex web services, deploying them to Azure Cloud using continuous integration and delivery builds, preparing ARM templates and deployment scripts, and implementing high availability, monitoring, logging, automated backups and other maintenance activities. Having administrative access over several Azure tenants and subscriptions, Azure Active Directory B2C tenants and their user flows, Azure API Management, and Azure DevOps organizations and their projects."
-  - "Focused in the last two years in Azure domain, using services such as: Azure Active Directory and B2C for identity management, Azure Functions, Azure SQL, Application Insights, Traffic Manager, CosmosDB, Storage, Service Bus, Search, Application Insights, Key Vault, Container Instances; and standards: OAuth, OpenID Connect, Swagger/OpenAPI, JWT."
-  - "Proficient in PowerShell and Unix bash, Windows and Linux operating systems. Able to organize source code for projects in .NET, Python, ECMAScript and create packages for these technologies (NuGet, npm, PyPi, CPython C extensions)."
+  - >
+    I am a specialist of web applications, with deep understanding of HTTP web servers, clients, frameworks, and browsers.
+    I have a generalist profile, with more than 10 years of experience in building back-ends and front-ends.
+    Web development and coding are two of my greatest passions, and I think this is demonstrated by my <a href="https://github.com/RobertoPrevato">GitHub profile</a>
+    and employment history.
+
+  - >
+    I am the author of one of today's most performant web frameworks for Python: BlackSheep; proved by TechEmpower benchmarks
+    even when its first version included the implementation of an HTTP Server.
+    This gave me the opportunity to work with Łukasz Langa (former Python release manager and Python Core Developer) and Yury Selivanov (also Python Core developer),
+    in EdgeDB. The adventure in EdgeDB lasted only 8 months, in 2020, for the only reason that I have a family and couldn't adapt to working in a small start-up
+    with 9 hours of time difference. I didn't like doing daily meetings starting at 7 PM, even though I liked the atmosphere in EdgeDB.
+    Good performance in my web framework is achieved using C extensions for Python, and libraries written in C for CPU intensive operations.
+
+    - >
+    I am currently working in Demant, which is one of the two leading companies in hearing healthcare,
+    as Senior Cloud Developer, and transitioning to a Cloud Architect position.
+    My main responsibilities at work consist in building back-ends in Azure Cloud, help defining the global governance for our production services,
+    and best practices to implement, secure, and publish APIs.
+    For Demant in the last 4 years I also built a few single page applications (SPAs), including a software distribution platform for Oticon Medical,
+    integrated with both Azure Active Directory and Azure Active Directory B2C, and a portal to handle CIAM information (Customer Identity and Access Management).
+
+  - >
+    When building back-ends at work, I code mainly with C# and Microsoft technologies. When coding in the free time,
+    my favorite programming language is Python and my platform of choice is Ubuntu.
+
+  - >
+    When creating new front-ends, I build single page applications. My technology of choice today is React with TypeScript, and WebPack. In the past I also
+    used Angular, Vue.js, Knockout.js, Ember, Backbone with Require.js, and before Node.js was first published in 2012, I was already building front-ends using
+    jQuery and plain JavaScript.
+
+  - >
+    The reason why I live in Poland is that I was hired from Italy to work on the new internet banking of mBank. I was hired by Accenture and Avanade because I
+    created a Tetris web application in HTML and JavaScript, and I was already well proficient with front-ends.
 
 desired_position: >-
-  DevOps and Web Solutions Architect, Azure Cloud specialist focused on PaaS, SaaS, Serverless, involved in defining systems architecture, deployment and maintenance strategies, and Cloud governance. Possibility to work with favorite technologies: Azure, Python, C#, ECMAScript, Docker and Kubernetes.
+  Cloud Architect or System Architect. Contributing to APIs, DevOps, and Cloud governance.
+  Possibility to work with my favorite technologies: Azure, Python, C#, TypeScript.
 
 skills:
   - name: Azure
     level: 5
   - name: Azure DevOps
     level: 5
-  - name: NET Framework
+  - name: GitHub Workflows
+    level: 4
+  - name: Python
     level: 5
-  - name: NET Core
+  - name: .NET
     level: 5
   - name: ASP.NET Core
     level: 5
   - name: C#
     level: 5
-  - name: Python
+  - name: TypeScript
     level: 5
   - name: JavaScript
     level: 5
   - name: Node.js
-    level: 4
+    level: 5
   - name: HTML5
     level: 5
   - name: CSS, SASS, Less
@@ -37,23 +70,23 @@ skills:
   - name: Git
     level: 5
   - name: SQL, NoSQL
-    level: 3
+    level: 5
   - name: Docker
     level: 4
-  - name: Kubernetes, Helm
-    level: 1
-  - name: PowerShell
-    level: 3
   - name: Bash
+    level: 4
+  - name: PowerShell
     level: 3
   - name: Markdown, UML
     level: 5
-  - name: xUnit
-    level: 5
   - name: pytest
     level: 5
+  - name: xUnit
+    level: 5
+  - name: Kubernetes, Helm
+    level: 1
 
-           
+
 blog_posts:
   - title: Self-hosted Azure DevOps agents running in Docker
     date: 07/2019
@@ -90,19 +123,23 @@ blog_posts:
 projects:
   - name: BlackSheep
     description: Asynchronous web framework to build event based, non-blocking Python web applications. It is inspired by Flask, ASP.NET Core, and the work by Yury Selivanov. BlackSheep includes a web framework and an implementation of HTTP client, and is ASGI compatible. Originally it included an implementation of HTTP Server, and performed well in the last round of benchmarks from TechEmpower. However, the decision of separating the web framework and making it compatible with ASGI servers is a good one, as it enables focusing on relatively high level features. Two project templates, for MVC architecture and empty APIs, are provided in dedicated repositories.
-    href: https://github.com/RobertoPrevato/BlackSheep
+    href: https://github.com/Neoteroi/BlackSheep
     pypi: https://pypi.org/project/blacksheep/
+
   - name: AzureDevOps-agents
     description: Images for self-hosted DevOps agents running in Docker. These agents use Ubuntu 16.04 and Ubuntu 18.04. Dockerfiles for Python, NET Core, and Node.js workloads are published in the repository.
     href: https://github.com/RobertoPrevato/AzureDevOps-agents
+
   - name: rodi
     description: Implementation of dependency injection for Python 3, using PEP 484 and naming conventions. Unintrusive api, inspired by NET Core dependency injection.
-    href: https://github.com/RobertoPrevato/rodi
+    href: https://github.com/Neoteroi/rodi
     pypi: https://pypi.org/project/rodi/
-  - name: roconfiguration
+
+  - name: essentials-configuration
     description: Key-value pair based configuration for Python applications, inspired by the solution implemented to handle configuration in NET Core.
-    href: https://github.com/RobertoPrevato/roconfiguration
-    pypi: https://pypi.org/project/roconfiguration/
+    href: https://github.com/Neoteroi/essentials-configuration
+    pypi: https://pypi.org/project/essentials-configuration/
+
   - name: KingTable
     description: Library for administrative tables that are able to build themselves, on the basis of the input data.
     href: https://github.com/RobertoPrevato/KingTable
@@ -111,25 +148,31 @@ projects:
   - name: jQuery-KingTable
     description: jQuery plugin for administrative tables that are able to build themselves, on the basis of the input data.
     href: https://github.com/RobertoPrevato/jQuery-KingTable
+
   - name: DataEntry
     description: Forms validation library that implements Promise based validation of fields and forms, automatic decoration of fields, localized error messages. Integrable with Angular, Backbone, Knockout, React, Vue.js. Examples for use with React and Vue.js are provided in dedicated repositories.
     href: https://github.com/RobertoPrevato/DataEntry
     npm: https://www.npmjs.com/package/dataentry
+
   - name: GuardPost
     description: Basic framework to handle authentication and authorization in any kind of Python application, inspired by authentication and authorization in ASP.NET Core.
-    href: https://github.com/RobertoPrevato/GuardPost
+    href: https://github.com/Neoteroi/GuardPost
     pypi: https://pypi.org/project/guardpost/
+
   - name: Gallerist
     description: Classes and methods to handle pictures for the web, using Python Pillow to resize pictures in desired sizes. Gallerist is an abstraction layer on top of Pillow, to simplify the task of resizing original pictures in various sizes, for the web.
-    href: https://github.com/RobertoPrevato/Gallerist
+    href: https://github.com/Neoteroi/Gallerist
     pypi: https://pypi.org/project/gallerist
+
   - name: Gallerist-AzureStorage
     description: Classes to handle pictures stored in Azure Storage Blob Service with Gallerist.
-    href: https://github.com/RobertoPrevato/Gallerist-AzureStorage
+    href: https://github.com/Neoteroi/Gallerist-AzureStorage
     pypi: https://pypi.org/project/gallerist-azurestorage/
+
   - name: Gallerist-AzureFunctions
     description: Python Azure Functions v2 to process images for the web. This repository contains a ready-to-use solution to have resizing of pictures in the serverless service offered by Microsoft.
-    href: https://github.com/RobertoPrevato/Gallerist-AzureFunctions
+    href: https://github.com/Neoteroi/Gallerist-AzureFunctions
+
   - name: wrktoolbox
     description: wrktoolbox is a tool to run benchmarks with wrk and wrk2, parse and store their results, and generate reports. I provided Dockerfiles to use wrk and wrk2 on Alpine and Ubuntu. wrktoolbox is designed to be used in Docker containers, in services like Azure Container Instances, to run load tests from several locations in the World.
     href: https://github.com/RobertoPrevato/wrktoolbox
@@ -142,6 +185,14 @@ out:
 
 
 experience:
+  - start: 01/2020
+    end: 08/2020
+    employer: EdgeDB
+    description: >-
+      Part-time position, on B2B bases, in [EdgeDB](https://github.com/edgedb): a start-up working on a new kind of database.
+      The owners of EdgeDb wanted to hire me full-time, but I couldn't adapt to work with them because of the great time difference.
+      During the 8 months in EdgeDB I learned a lot about Python, I made contributions to the EdgeDB code source to implement typing coverage,
+      and I implemented a CLA Bot for their GitHub organization using Next.js web framework, TypeScript, and EdgeDB.
   - start: 03/2017
     end: current
     employer: Demant Technology Centre
@@ -149,10 +200,12 @@ experience:
       Member of IT Cloud and Strategy team of Demant (former William Demant Holding), with role of DevOps and Senior Cloud Developer. Key player in delivering web solutions for the whole company and producing savings.
       Examples of web applications I developed alone during this job are:
       <ul>
-        <li><strong>HI QMS:</strong> system to store, index, and grant access to QMS documents for the whole company (related to ISO 9000 family compliance). The system comprises of a back-end using ASP.NET Core, Azure Storage to store documents and metadata in the most cost-effective way, Azure Search to index uploaded files and provide search feature, Azure Service Bus for service integrations, Azure Logic App to send email notifications when documents are updated; and a front-end SPA implemented in React, that lets users update documents, upload files, configure a tree view, and download files.</li>
-        <li><strong>Signing Service:</strong> web api to generate digital signatures, using RSA keys stored in Azure Key Vault. Service implemented using ASP.NET Core, integrated with company AAD, published in Azure API Management.</li>
-        <li><strong>One Customer:</strong> web api handling end customers information, integrated with Microsoft Graph API and Azure AAD B2C tenants.</li>
+        <li><strong>HIQMS:</strong> system to store, index, and grant access to QMS documents for the whole company (related to ISO 9000 family compliance). The system comprises of a back-end using ASP.NET Core, Azure Storage to store documents and metadata in the most cost-effective way, Azure Search to index uploaded files and provide search feature, Azure Service Bus for service integrations, Azure Logic App to send email notifications when documents are updated; and a front-end SPA implemented in React, that lets users update documents, upload files, configure a tree view, and download files.</li>
+        <li><strong>Signing Service:</strong> web API to generate digital signatures, using RSA keys stored in Azure Key Vault. Service implemented using ASP.NET Core, integrated with company AAD, published in Azure API Management.</li>
+        <li><strong>OneCustomer:</strong> web API handling end customers information, integrated with Microsoft Graph API and Azure AAD B2C tenants.</li>
         <li><strong>Account Service:</strong> web service responsible of serving static assets for public facing pages and HTML bodies of emails sent to Demant's end customers, and Universal Links configuration for mobile apps (Android and iOS). This service features complex CI and CD pipelines to generate contents from HTML templates and locales configured in dedicated files, using a dedicated CLI implemented using Python 3, Click, Jinja2, and other libraries.</li>
+        <li><strong>Oticon Medical Software Center</strong> ASP.NET Core API and web portal (React SPA) to handle the software distribution for Oticon Medical.</li>
+        <li><strong>Demant Admin Tool</strong> web portal (React SPA), integrated with the OneCustomer API to handle CIAM (Customer Identity and Access Management) for hearing care professionals working with Demant hearing devices.</li>
       </ul>
     address: al. Jana Pawła II 22 – 00-133 Warszawa (Poland)
   - start: 03/2014
@@ -183,7 +236,7 @@ experience:
       GFI Italia, Via Mosca 52 – 00142 Roma (earlier),
       Solgenia Group, Via Mosca 52 – 00142 Roma (later)
     description: >-
-      Web developer to build applications for Rai Italian national broadcasting company. Using: .NET Framework, VB.NET, JavaScript, HTML, CSS, SQL Server, XML, AJAX, jQuery. 
+      Web developer to build applications for Rai Italian national broadcasting company. Using: .NET Framework, VB.NET, JavaScript, HTML, CSS, SQL Server, XML, AJAX, jQuery.
       Examples of web applications I developerd alone during this job are:
       <ul>
         <li><strong>Censimento Fonia:</strong> application to manage and maintain Rai telephone numbers information;</li>
@@ -222,7 +275,7 @@ languages:
     level: Intermediate (speaking, reading); Basic (writing)
 
 
-education: 
+education:
   - name: Politecnico di Torino
     type: university
     description: >-
@@ -269,7 +322,7 @@ contacts:
     url: https://robertoprevato.github.io
 
 
-notes: 
+notes:
   - title: According to Insights Discovery...
     text: >-
       I am an Inspiring Helper (Conscious Wheel Position); Supporting Helper (Less Conscious Wheel Position); all my colors are at similar levels, with dominance of yellow and green. If desired, I can share my Gallup’s StrengthsFinder results from 2016 and Insights Discovery results from 2017.
