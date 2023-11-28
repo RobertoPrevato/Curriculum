@@ -1,58 +1,107 @@
 name: Roberto Prevato
-title: DevOps / Senior Web Developer / Systems Architect
+title: Cloud Solutions Architect
 picture: ... link to GitHub gist, or to public endpoint in Azure Blob Service?
 
 profile:
   - >
-    I am a specialist of web applications, with deep understanding of HTTP web servers, clients, frameworks, and browsers.
-    I have a generalist profile, with more than 10 years of experience in building back-ends and front-ends.
-    Web development and coding are two of my greatest passions, and I think this is demonstrated by my <a href="https://github.com/RobertoPrevato">GitHub profile</a>
-    and employment history.
+    Since February 2022 I work as Cloud Solutions Architect, in the Cloud Center of
+    Excellence team in Demant. In Demant, which is one of the two leading companies in
+    hearing healthcare, I've been made responsible of the Azure tenant as a whole -
+    meaning that I have the last word in case of disputes regarding how governance
+    should be done in our tenant. I am also one of the main administrators of our Azure
+    DevOps organizations, and our GitHub Enterprise account. In August 2023 I configured
+    personally the integration between our Entra ID tenant and our GitHub Enterprise
+    account with Enterprise Managed Users, and the most important settings of our GitHub
+    account to enable Copilot and Codespaces. In the last months I have worked to
+    implement Azure landing zones and the adoption of the enterprise scale reference
+    architecture from Microsoft in Demant, helping automating things such as creation of
+    Azure subscriptions with consistent tagging, Entra ID groups, eligible assignments
+    and role settings for Entra ID Privileged Identity Management. I am a key
+    contributor in helping following the Well Architected Framework from Microsoft and
+    implementing a Cloud Community of Practice in Demant, working on documentation and
+    knowledge sharing. For example, in the last months I produced documentation and
+    examples to describe a recommended strategy to automate deployments to Azure API
+    Management. In the last months I've been also involved in the use of Azure OpenAI in
+    Demant, and in constant contact with Microsoft to discuss various subjects (Demant
+    signed a partnership with Microsoft). I still work regularly on Infrastructure as
+    Code using YAML Pipelines, Bash, Azure CLI, and PowerShell.
 
   - >
-    I am the author of one of today's most performant web frameworks for Python: BlackSheep; proved by TechEmpower benchmarks
-    even when its first version included the implementation of an HTTP Server.
-    This gave me the opportunity to work with Łukasz Langa (former Python release manager and Python Core Developer) and Yury Selivanov (also Python Core developer),
-    in EdgeDB. The adventure in EdgeDB lasted only 8 months, in 2020, for the only reason that I have a family and couldn't adapt to working in a small start-up
-    with 9 hours of time difference. I didn't like doing daily meetings starting at 7 PM, even though I liked the atmosphere in EdgeDB.
-    Good performance in my web framework is achieved using C extensions for Python, and libraries written in C for CPU intensive operations.
-
-    - >
-    I am currently working in Demant, which is one of the two leading companies in hearing healthcare,
-    as Senior Cloud Developer, and transitioning to a Cloud Architect position.
-    My main responsibilities at work consist in building back-ends in Azure Cloud, help defining the global governance for our production services,
-    and best practices to implement, secure, and publish APIs.
-    For Demant in the last 4 years I also built a few single page applications (SPAs), including a software distribution platform for Oticon Medical,
-    integrated with both Azure Active Directory and Azure Active Directory B2C, and a portal to handle CIAM information (Customer Identity and Access Management).
+    Before the promotion to Cloud Architect position, I built a strong experience in
+    software development and full-stack web development.
+    I am a specialist of web applications, with deep understanding of HTTP web servers,
+    clients, web frameworks, and browsers. I have a generalist profile, with more than 10
+    years of experience in building back-ends and front-ends. Web development and coding
+    are two of my greatest passions, and this is demonstrated by my <a
+    href="https://github.com/RobertoPrevato">GitHub profile</a> and employment history.
 
   - >
-    When building back-ends at work, I code mainly with C# and Microsoft technologies. When coding in the free time,
-    my favorite programming language is Python and my platform of choice is Ubuntu.
+    I am the author of one of today's most performant web frameworks for Python: <a
+    href="https://github.com/Neoteroi/BlackSheep">BlackSheep</a>; proven by TechEmpower
+    benchmarks even since its first implementations. This gave me the opportunity to
+    work part-time with Łukasz Langa (former Python release manager and Python Core
+    Developer) and Yury Selivanov (also Python Core developer), in EdgeDB. The adventure
+    in EdgeDB lasted only 8 months, in 2020, while still working full time for Demant.
+    Good performance in my web framework is achieved using C extensions for Python, and
+    libraries written in C for CPU intensive operations.
 
   - >
-    When creating new front-ends, I build single page applications. My technology of choice today is React with TypeScript, and WebPack. In the past I also
-    used Angular, Vue.js, Knockout.js, Ember, Backbone with Require.js, and before Node.js was first published in 2012, I was already building front-ends using
-    jQuery and plain JavaScript.
+    During the work in EdgeDB I implemented a Contributor License Agreement (CLA) bot
+    for GitHub, which today is also used by the Python Software Foundation. The source
+    code is visible on GitHub, in the EdgeDB organization. The fact that the CLA bot was
+    adopted by the Python Software Foundation was announced by Yury Selivanov on
+    Twitter.
 
   - >
-    The reason why I live in Poland is that I was hired from Italy to work on the new internet banking of mBank. I was hired by Accenture and Avanade because I
-    created a Tetris web application in HTML and JavaScript, and I was already well proficient with front-ends.
+    In the years as Senior DevOps and Cloud Developer in Demant, my main
+    responsibilities at work consisted in building back-ends in Azure Cloud, help
+    defining the global governance for our production services, and best practices to
+    implement, secure, and publish APIs. For Demant I also built a few single page
+    applications (SPAs), including a software distribution platform for Oticon Medical,
+    integrated with both Azure Active Directory (now Entra ID) and Azure Active
+    Directory B2C, and a portal to handle CIAM information (Customer Identity and Access
+    Management).
+
+  - >
+    When building back-ends at work, I code mainly with C# and Microsoft technologies.
+    When coding in the free time, my favorite programming language is Python and my
+    platform of choice is Ubuntu.
+
+  - >
+    When creating new front-ends, I build single page applications. My technology of
+    choice today is Vue.js with TypeScript, and Vite. In the past I also used Angular,
+    React, Knockout.js, Ember, Backbone with Require.js, WebPack, Grunt, Gulp. Before
+    Node.js was first published in 2012, I was already building front-ends using jQuery
+    and plain JavaScript.
+
+  - >
+    The reason why I live in Poland is that I was hired from Italy to work on the new
+    internet banking of mBank. I was hired by Accenture and Avanade because I created a
+    Tetris web application in HTML and JavaScript, and I was considered expert in
+    JavaScript.
 
 desired_position: >-
-  Cloud Architect or System Architect. Contributing to APIs, DevOps, and Cloud governance.
-  Possibility to work with my favorite technologies: Azure, Python, C#, TypeScript.
+  Cloud Architect. Contributing to APIs, DevOps, and Cloud
+  governance. Possibility to work with my favorite technologies: Azure, Python, C#,
+  TypeScript.
 
 skills:
   - name: Azure
     level: 5
   - name: Azure DevOps
     level: 5
-  - name: GitHub Workflows
-    level: 4
+  - name: GitHub
+    level: 5
   - name: Python
     level: 5
-  - name: .NET
+  - name: PowerShell
     level: 5
+  - name: Bicep
+    level: 5
+  - name: Bash
+    level: 4
+  - name: .NET
+    level: 4
   - name: ASP.NET Core
     level: 5
   - name: C#
@@ -73,18 +122,12 @@ skills:
     level: 5
   - name: Docker
     level: 4
-  - name: Bash
-    level: 4
-  - name: PowerShell
-    level: 3
   - name: Markdown, UML
     level: 5
   - name: pytest
     level: 5
   - name: xUnit
     level: 5
-  - name: Kubernetes, Helm
-    level: 1
 
 
 blog_posts:
@@ -185,6 +228,14 @@ out:
 
 
 experience:
+  - start: 02/2022
+    end: current
+    employer: Demant Technology Centre
+    description: >-
+      Cloud Solution Architect, member of the Cloud Center of Excellence team in Demant.
+      With key responsibilities in the administration and governance of our Azure and Entra ID
+      tenants, our Azure DevOps organizations, and our GitHub Enterprise account.
+    address: al. Jana Pawła II 22 – 00-133 Warszawa (Poland)
   - start: 01/2020
     end: 08/2020
     employer: EdgeDB
@@ -194,10 +245,10 @@ experience:
       During the 8 months in EdgeDB I learned a lot about Python, I made contributions to the EdgeDB code source to implement typing coverage,
       and I implemented a CLA Bot for their GitHub organization using Next.js web framework, TypeScript, and EdgeDB.
   - start: 03/2017
-    end: current
+    end: 02/2022
     employer: Demant Technology Centre
     description: >-
-      Member of IT Cloud and Strategy team of Demant (former William Demant Holding), with role of DevOps and Senior Cloud Developer. Key player in delivering web solutions for the whole company and producing savings.
+      Member of IT Cloud and Strategy team of Demant, with role of Senior DevOps and Senior Cloud Developer. Key player in delivering web solutions for the whole company and producing savings.
       Examples of web applications I developed alone during this job are:
       <ul>
         <li><strong>HIQMS:</strong> system to store, index, and grant access to QMS documents for the whole company (related to ISO 9000 family compliance). The system comprises of a back-end using ASP.NET Core, Azure Storage to store documents and metadata in the most cost-effective way, Azure Search to index uploaded files and provide search feature, Azure Service Bus for service integrations, Azure Logic App to send email notifications when documents are updated; and a front-end SPA implemented in React, that lets users update documents, upload files, configure a tree view, and download files.</li>
@@ -272,7 +323,7 @@ languages:
   - name: Italian
     level: Native speaker
   - name: Polish
-    level: Intermediate (speaking, reading); Basic (writing)
+    level: Proficient (speaking, reading); Basic (writing)
 
 
 education:
@@ -286,6 +337,9 @@ education:
 
 
 certificates:
+  - issuer: Microsoft
+    name: "Microsoft Certified: Azure Administrator Associate"
+    when: 10/2022
   - issuer: Microsoft
     name: "Microsoft MCSD: Microsoft Certified Solutions Developer."
     when: 08/2015
@@ -314,9 +368,6 @@ contacts:
   - value: Linkedin
     icon: fab fa-linkedin-in
     url: https://www.linkedin.com/in/roberto-prevato
-  - value: Twitter
-    icon: fab fa-twitter
-    url: https://twitter.com/RobertoPrevato
   - value: Blog
     icon: fas fa-feather-alt
     url: https://robertoprevato.github.io
