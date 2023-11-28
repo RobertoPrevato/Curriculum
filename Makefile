@@ -15,4 +15,4 @@ build: clean copyassets index
 
 
 pdf:
-	google-chrome --headless --run-all-compositor-stages-before-draw --print-to-pdf=curriculum.pdf --no-margins ./out/index.html
+	google-chrome --headless --print-to-pdf-no-header --run-all-compositor-stages-before-draw --print-to-pdf=Roberto-Prevato-cv.pdf --no-margins ./out/index.html
