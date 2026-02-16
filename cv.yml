@@ -6,18 +6,17 @@ profile:
   - >
     I currently work as a **Cloud Solution Architect** in the **Cloud Center of
     Excellence** team at **Demant**, a role I was promoted to in February 2022 after
-    serving as **Senior DevOps** and **Senior Cloud Developer**. In Demant, which is one
+    working as **Senior DevOps** and **Senior Cloud Developer**. In Demant, which is one
     of the two leading companies in hearing healthcare, I am responsible for overall
-    governance of the **Azure tenant**, serving as the final authority on architectural
-    and governance decisions. I am also one of the main administrators of Demant's
+    governance of the **Azure** tenant. I am also one of the main administrators of Demant's
     **Azure DevOps** organizations and **GitHub Enterprise** account. In August 2023 I
-    personally configured the integration between our **Entra ID** tenant and Demant's
+    configured the integration between our **Entra ID** tenant and Demant's
     **GitHub Enterprise Managed Users** account and assigned the first GitHub Copilot
-    Seats. In recent years, I have played a crucial role in implementing **Azure landing
-    zones** at Demant, contributing directly to the related automation. I have played a
-    key role in defining Demant's **Internal Developer Platform** and **Platform
-    Engineering** strategy, contributing to the design of features to enable development teams to
-    provision and manage resources independently. I am a key contributor in implementing
+    Seats. In recent years, I have played a crucial role in implementing **Azure landing zones**
+    at Demant, contributing to the related automation. I helped defining
+    an **Internal Developer Platform** and **Platform Engineering** strategy,
+    contributing to the design of features to enable development teams to
+    provision and manage resources independently. I actively contribute to implementing
     a **Cloud Community of Practice** in Demant, working on documentation and knowledge
     sharing. For example, I produced documentation and examples to describe a
     recommended strategy for automating deployments to **Azure API Management**. I
@@ -27,23 +26,23 @@ profile:
   - >
     Before my promotion to the Cloud Architect position, I worked on several web
     applications (both front-ends and back-ends) and web APIs for Demant,
-    often independently implementing web applications end-to-end. Examples of IT systems
+    often implementing web applications end-to-end. Examples of IT systems
     I developed for Demant using Azure include: the **Signing Service API**
     (**GxP validated**), which is used to create and verify digital signatures for firmware
     at Demant's production sites for hearing devices; the **Oticon Medical Software
     Center**, a software distribution platform for Oticon Medical integrated with both
-    **Azure Active Directory** (now Entra ID) and **Azure AD B2C**; and **HIQMS** (**GxP validated**), a
-    system used to store and share documents for our **QMS (Quality Management System)**. I
-    also built a portal to handle **CIAM** (Customer Identity and Access
+    **Entra ID** and **Azure AD B2C**; and **HIQMS** (**GxP validated**), a
+    system used to store and share documents for our **QMS (Quality Management System)**.
+    Other examples are a portal to handle **CIAM** (Customer Identity and Access
     Management) for hearing care professionals (project name: **Demant Admin Tool**), web
     APIs to serve localized content for mobile apps used by end customers (project name:
-    **Account WebFace**).
+    **Account WebFace**), and automation for administering Demant's central
+    Azure API Management service.
 
     I am a specialist in **web applications**, with a deep understanding of **HTTP web servers**,
     clients, **web frameworks**, and browsers. I have a generalist profile, with more than **10
     years of experience** in building back-ends and front-ends. **Web development** and **coding**
-    are two of my greatest passions, as demonstrated by my <a
-    href="https://github.com/RobertoPrevato">GitHub profile</a> and employment history.
+    are two of my passions, as demonstrated by my <a href="https://github.com/RobertoPrevato">GitHub profile</a> and employment history.
 
   - >
     I am the author of one of today's **most performant web frameworks for Python**: <a
@@ -139,7 +138,7 @@ experience:
     employer: Demant Technology Centre
     description: >-
       Member of the IT Cloud and Strategy team at Demant, with the role of Senior DevOps and Senior Cloud Developer. Key player in delivering web solutions for the entire company and generating cost savings.
-      Examples of web applications I developed alone during this job are:
+      Examples of web applications I developed during this job include:
       <ul>
         <li><strong>HIQMS:</strong> system to store, index, and grant access to QMS documents for the entire company (related to ISO 9000 family compliance). The system comprises a back-end using ASP.NET Core, Azure Storage to store documents and metadata in the most cost-effective way, Azure Search to index uploaded files and provide search functionality, Azure Service Bus for service integrations, and Azure Logic Apps to send email notifications when documents are updated; along with a front-end SPA implemented in React that lets users update documents, upload files, configure a tree view, and download files.</li>
         <li><strong>Signing Service:</strong> web API to generate digital signatures, using RSA keys stored in Azure Key Vault. Service implemented using ASP.NET Core, integrated with company AAD, published in Azure API Management.</li>
@@ -170,7 +169,7 @@ experience:
       GFI Italia, Via Mosca 52 – 00142 Roma (earlier),
       Solgenia Group, Via Mosca 52 – 00142 Roma (later)
     description: >-
-      Web developer building applications for Rai, the Italian national broadcasting company, using .NET Framework, VB.NET, JavaScript, HTML, CSS, SQL Server, XML, AJAX, and jQuery. Independently developed several web applications including systems for managing telephone information, processing ticket requests for radio programs, and handling transmission rights requests.
+      Web developer building applications for Rai, the Italian national broadcasting company, using .NET Framework, VB.NET, JavaScript, HTML, CSS, SQL Server, XML, AJAX, and jQuery. Developed several web applications including systems for managing telephone information, processing ticket requests for radio programs, and handling transmission rights requests.
 
 
 languages:

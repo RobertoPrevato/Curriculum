@@ -8,7 +8,7 @@
     }
 }
 
-@page:right{
+@page {
     @bottom-right {
       content: counter(page);
     }
