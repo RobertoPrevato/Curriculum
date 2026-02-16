@@ -1,8 +1,12 @@
-from roconfiguration import Configuration
+from config.common import ConfigurationBuilder
+from config.env import EnvVars
+from config.yaml import YAMLFile
 
 
 def load_configuration():
-    configuration = Configuration()
-    configuration.add_yaml_file('cv.yml')
-    configuration.add_environmental_variables('CV_')
-    return configuration
+    builder = ConfigurationBuilder()
+
+    builder.add_source(YAMLFile("cv.yml"))
+    builder.add_source(EnvVars("CV_"))
+
+    return builder.build()
