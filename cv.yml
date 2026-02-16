@@ -4,78 +4,87 @@ picture: ...
 
 profile:
   - >
-    Since February 2022 I work as Cloud Solution Architect, in the Cloud Center of
-    Excellence team in Demant. In Demant, which is one of the two leading companies in
-    hearing healthcare, I've been made responsible of the Azure tenant as a whole -
-    meaning that I have the last word in case of disputes regarding governance
-    in our Azure tenant. I am also one of the main administrators of our Azure
-    DevOps organizations, and our GitHub Enterprise account. In August 2023 I configured
-    personally the integration between our Entra ID tenant and Demant's GitHub Enterprise
-    Managed Users account, and the most important settings of our GitHub
-    account to enable Copilot and Codespaces. In the last months I have worked to
-    implement Azure landing zones and the adoption of the enterprise scale reference
-    architecture from Microsoft in Demant, helping automating things such as creation of
-    Azure subscriptions with consistent tagging, Entra ID groups, eligible assignments
-    and role settings for Entra ID Privileged Identity Management. I am a key
-    contributor in helping following the Well Architected Framework from Microsoft and
-    implementing a Cloud Community of Practice in Demant, working on documentation and
-    knowledge sharing. For example, in the last months I produced documentation and
-    examples to describe a recommended strategy to automate deployments to Azure API
-    Management. In the last months I've been also involved in the use of Azure OpenAI in
-    Demant, and in constant contact with Microsoft to discuss various subjects (Demant
-    signed a partnership with Microsoft). I still work regularly on Infrastructure as
-    Code using YAML Pipelines, Bash, Azure CLI, and PowerShell.
+    I work as a Cloud Solution Architect in the Cloud Center of Excellence team at
+    Demant, a role I was promoted to in February 2022 after serving as Senior DevOps and
+    Senior Cloud Developer. In Demant, which is one of the two leading companies in
+    hearing healthcare, I've been made responsible for the Azure tenant as a whole -
+    meaning that I have the final word in case of disputes regarding governance in our
+    Azure tenant. I am also one of the main administrators of our Azure DevOps
+    organizations and our GitHub Enterprise account. In August 2023 I personally
+    configured the integration between our Entra ID tenant and Demant's GitHub
+    Enterprise Managed Users account, along with the most important settings of our
+    GitHub account to enable Copilot and Codespaces. In recent months I have worked to
+    implement Azure landing zones and the adoption of the enterprise-scale reference
+    architecture from Microsoft in Demant, helping to automate tasks such as the
+    creation of Azure subscriptions with consistent tagging, Entra ID groups, eligible
+    assignments, and role settings for Entra ID Privileged Identity Management. I have
+    played a key role in defining Demant's Internal Developer Platform and Platform
+    Engineering strategy, contributing to designing features for Azure
+    Landing Zones, Azure DevOps, and GitHub Enterprise to enable development teams to
+    provision and manage resources independently. I am a key contributor in implementing
+    a Cloud Community of Practice in Demant, working on documentation and knowledge
+    sharing. For example, I produced documentation and
+    examples to describe a recommended strategy for automating deployments to Azure API
+    Management. I regularly work on Infrastructure as Code using YAML Pipelines, Bash, Azure CLI, and PowerShell.
 
   - >
-    Before the promotion to Cloud Architect position, I built a strong experience in
-    software development and full-stack web development.
-    I am a specialist of web applications, with deep understanding of HTTP web servers,
+    Before my promotion to the Cloud Architect position, I played a key role in building
+    several web applications (both front-ends and back-ends) and web APIs for Demant,
+    often independently implementing web applications end-to-end. Examples of IT systems
+    I developed for Demant using Azure Cloud include: the Signing Service API
+    (GxP validated), which is used to create and verify digital signatures for firmware
+    at Demant's production sites for hearing devices; the Oticon Medical Software
+    Center, a software distribution platform for Oticon Medical integrated with both
+    Azure Active Directory (now Entra ID) and Azure AD B2C; and HIQMS (GxP validated), a
+    system used to store and share documents for our QMS (Quality Management System). I
+    also built a portal to handle CIAM information (Customer Identity and Access
+    Management) for hearing care professionals (project name: Demant Admin Tool), web
+    APIs to serve localized content for mobile apps used by end customers (project name:
+    Account WebFace).
+
+    I am a specialist in web applications, with a deep understanding of HTTP web servers,
     clients, web frameworks, and browsers. I have a generalist profile, with more than 10
     years of experience in building back-ends and front-ends. Web development and coding
-    are two of my greatest passions, and this is demonstrated by my <a
+    are two of my greatest passions, as demonstrated by my <a
     href="https://github.com/RobertoPrevato">GitHub profile</a> and employment history.
+
+
+  - >
+    During my years as a Senior DevOps and Cloud Developer at Demant, my main
+    responsibilities consisted of building back-ends in Azure Cloud, helping to
+    define the global governance for our production services, and establishing best practices to
+    implement, secure, and publish APIs.
 
   - >
     I am the author of one of today's most performant web frameworks for Python: <a
-    href="https://github.com/Neoteroi/BlackSheep">BlackSheep</a>; proven by TechEmpower
-    benchmarks even since its first implementations. This gave me the opportunity to
+    href="https://github.com/Neoteroi/BlackSheep">BlackSheep</a>, as proven by TechEmpower
+    benchmarks since its first implementations. This gave me the opportunity to
     work part-time with Łukasz Langa (former Python release manager and Python Core
-    Developer) and Yury Selivanov (also Python Core developer), in EdgeDB. The adventure
-    in EdgeDB lasted only 8 months, in 2020, while I was still working full time for Demant.
+    Developer) and Yury Selivanov (also a Python Core developer) at EdgeDB. The position
+    at EdgeDB lasted only 8 months, in 2020, while I was still working full-time for Demant.
 
   - >
-    During the work in EdgeDB I implemented a Contributor License Agreement (CLA) bot
-    for GitHub, which today is also used by the Python Software Foundation. The source
-    code is visible on GitHub, in the EdgeDB organization. The fact that the CLA bot was
-    adopted by the Python Software Foundation was announced by Yury Selivanov on
-    Twitter.
+    During my work at EdgeDB I implemented a Contributor License Agreement (CLA) bot
+    for GitHub, which is now also used by the Python Software Foundation. The source
+    code is available on GitHub in the EdgeDB organization. The adoption of the CLA bot by
+    the Python Software Foundation was announced by Yury Selivanov on Twitter.
 
   - >
-    In the years as Senior DevOps and Cloud Developer in Demant, my main
-    responsibilities at work consisted in building back-ends in Azure Cloud, help
-    defining the global governance for our production services, and best practices to
-    implement, secure, and publish APIs. For Demant I also built a few single page
-    applications (SPAs), including a software distribution platform for Oticon Medical,
-    integrated with both Azure Active Directory (now Entra ID) and Azure Active
-    Directory B2C, and a portal to handle CIAM information (Customer Identity and Access
-    Management).
-
-  - >
-    When building back-ends at work, I code mainly with C# and Microsoft technologies.
-    When coding in the free time, my favorite programming language is Python and my
+    When building back-ends at work, I primarily code with C# and Microsoft technologies.
+    When coding in my free time, my favorite programming language is Python and my
     platform of choice is Ubuntu.
 
   - >
-    When creating new front-ends, I build single page applications. My technology of
-    choice today is Vue.js with TypeScript, and Vite. In the past I also used Angular,
-    React, Knockout.js, Ember, Backbone with Require.js, WebPack, Grunt, Gulp. Before
-    Node.js was first published in 2012, I was already building front-ends using jQuery
+    When creating new front-ends, I build single-page applications. My technology of
+    choice today is Vue.js with TypeScript and Vite. In the past I also used Angular,
+    React, Knockout.js, Ember, Backbone with Require.js, Webpack, Grunt, and Gulp. Before
+    Node.js was first published in 2009, I was already building front-ends using jQuery
     and plain JavaScript.
 
   - >
-    The reason why I live in Poland is that I was hired from Italy to work on the new
-    internet banking of mBank. I was hired by Accenture and Avanade because I created a
-    Tetris web application in HTML and JavaScript, and I was considered expert in
+    The reason I live in Poland is that I was hired from Italy to work on the new
+    internet banking platform for mBank. I was hired by Accenture and Avanade because I created a
+    Tetris web application in HTML and JavaScript, and I was considered an expert in
     JavaScript.
 
 desired_position: >-
@@ -163,7 +172,7 @@ blog_posts:
 
 projects:
   - name: BlackSheep
-    description: Asynchronous web framework to build event based, non-blocking Python web applications. It is inspired by Flask, ASP.NET Core, and the work by Yury Selivanov. BlackSheep includes a web framework and an implementation of HTTP client, and is ASGI compatible. Originally it included an implementation of HTTP Server, and performed well in the last round of benchmarks from TechEmpower. However, the decision of separating the web framework and making it compatible with ASGI servers is a good one, as it enables focusing on relatively high level features. Two project templates, for MVC architecture and empty APIs, are provided in dedicated repositories.
+    description: Asynchronous web framework to build event-based, non-blocking Python web applications. It is inspired by Flask, ASP.NET Core, and the work of Yury Selivanov. BlackSheep includes a web framework and an HTTP client implementation, and is ASGI compatible. Originally it included an HTTP Server implementation and performed well in the last round of benchmarks from TechEmpower. However, the decision to separate the web framework and make it compatible with ASGI servers is beneficial, as it enables focusing on relatively high-level features. Two project templates for MVC architecture and empty APIs are provided in dedicated repositories.
     href: https://github.com/Neoteroi/BlackSheep
     pypi: https://pypi.org/project/blacksheep/
 
@@ -172,12 +181,12 @@ projects:
     href: https://github.com/RobertoPrevato/AzureDevOps-agents
 
   - name: rodi
-    description: Implementation of dependency injection for Python 3, using PEP 484 and naming conventions. Unintrusive api, inspired by NET Core dependency injection.
+    description: Implementation of dependency injection for Python 3, using PEP 484 and naming conventions. Unintrusive API, inspired by .NET Core dependency injection.
     href: https://github.com/Neoteroi/rodi
     pypi: https://pypi.org/project/rodi/
 
   - name: essentials-configuration
-    description: Key-value pair based configuration for Python applications, inspired by the solution implemented to handle configuration in NET Core.
+    description: Key-value pair based configuration for Python applications, inspired by the solution implemented to handle configuration in .NET Core.
     href: https://github.com/Neoteroi/essentials-configuration
     pypi: https://pypi.org/project/essentials-configuration/
 
@@ -191,7 +200,7 @@ projects:
     href: https://github.com/RobertoPrevato/jQuery-KingTable
 
   - name: DataEntry
-    description: Forms validation library that implements Promise based validation of fields and forms, automatic decoration of fields, localized error messages. Integrable with Angular, Backbone, Knockout, React, Vue.js. Examples for use with React and Vue.js are provided in dedicated repositories.
+    description: Forms validation library that implements Promise-based validation of fields and forms, automatic decoration of fields, and localized error messages. Integrable with Angular, Backbone, Knockout, React, and Vue.js. Examples for use with React and Vue.js are provided in dedicated repositories.
     href: https://github.com/RobertoPrevato/DataEntry
     npm: https://www.npmjs.com/package/dataentry
 
@@ -201,7 +210,7 @@ projects:
     pypi: https://pypi.org/project/guardpost/
 
   - name: Gallerist
-    description: Classes and methods to handle pictures for the web, using Python Pillow to resize pictures in desired sizes. Gallerist is an abstraction layer on top of Pillow, to simplify the task of resizing original pictures in various sizes, for the web.
+    description: Classes and methods to handle pictures for the web, using Python Pillow to resize pictures to desired sizes. Gallerist is an abstraction layer on top of Pillow to simplify the task of resizing original pictures into various sizes for the web.
     href: https://github.com/Neoteroi/Gallerist
     pypi: https://pypi.org/project/gallerist
 
@@ -215,13 +224,13 @@ projects:
     href: https://github.com/Neoteroi/Gallerist-AzureFunctions
 
   - name: wrktoolbox
-    description: wrktoolbox is a tool to run benchmarks with wrk and wrk2, parse and store their results, and generate reports. I provided Dockerfiles to use wrk and wrk2 on Alpine and Ubuntu. wrktoolbox is designed to be used in Docker containers, in services like Azure Container Instances, to run load tests from several locations in the World.
+    description: wrktoolbox is a tool to run benchmarks with wrk and wrk2, parse and store their results, and generate reports. I provided Dockerfiles to use wrk and wrk2 on Alpine and Ubuntu. wrktoolbox is designed to be used in Docker containers in services like Azure Container Instances to run load tests from multiple locations around the world.
     href: https://github.com/RobertoPrevato/wrktoolbox
     pypi: https://pypi.org/project/wrktools/
 
 out:
   - name: And others...
-    description: Other contributions include a tiny solution to implement localization in web applications (I.js), a tool to convert pictures in Base64 encoded strings, a solution for dependency injection in 100 lines of JavaScript (R.js).
+    description: Other contributions include a lightweight solution to implement localization in web applications (I.js), a tool to convert pictures into Base64-encoded strings, and a solution for dependency injection in 100 lines of JavaScript (R.js).
     href: https://github.com/RobertoPrevato/
 
 
@@ -230,29 +239,29 @@ experience:
     end: current
     employer: Demant Technology Centre
     description: >-
-      Cloud Solution Architect, member of the Cloud Center of Excellence team in Demant.
-      With key responsibilities in the administration and governance of our Azure and Entra ID
+      Cloud Solution Architect, member of the Cloud Center of Excellence team at Demant,
+      with key responsibilities in the administration and governance of our Azure and Entra ID
       tenants, our Azure DevOps organizations, and our GitHub Enterprise account.
     address: al. Jana Pawła II 22 – 00-133 Warszawa (Poland)
   - start: 01/2020
     end: 08/2020
     employer: EdgeDB
     description: >-
-      Part-time position, on B2B bases, in [EdgeDB](https://github.com/edgedb): a start-up working on a new kind of database.
-      The owners of EdgeDb wanted to hire me full-time, but I couldn't adapt to work with them because of the great time difference.
-      During the 8 months in EdgeDB I learned a lot about Python, I made contributions to the EdgeDB code source to implement typing coverage,
-      and I implemented a CLA Bot for their GitHub organization using Next.js web framework, TypeScript, and EdgeDB.
+      Part-time position on a B2B basis at [EdgeDB](https://github.com/edgedb), a start-up working on a new kind of database.
+      The owners of EdgeDB wanted to hire me full-time, but I couldn't adapt to working with them because of the significant time difference.
+      During my 8 months at EdgeDB I learned extensively about Python, made contributions to the EdgeDB codebase to implement typing coverage,
+      and implemented a CLA Bot for their GitHub organization using the Next.js web framework, TypeScript, and EdgeDB.
   - start: 03/2017
     end: 02/2022
     employer: Demant Technology Centre
     description: >-
-      Member of IT Cloud and Strategy team of Demant, with role of Senior DevOps and Senior Cloud Developer. Key player in delivering web solutions for the whole company and producing savings.
+      Member of the IT Cloud and Strategy team at Demant, with the role of Senior DevOps and Senior Cloud Developer. Key player in delivering web solutions for the entire company and generating cost savings.
       Examples of web applications I developed alone during this job are:
       <ul>
-        <li><strong>HIQMS:</strong> system to store, index, and grant access to QMS documents for the whole company (related to ISO 9000 family compliance). The system comprises of a back-end using ASP.NET Core, Azure Storage to store documents and metadata in the most cost-effective way, Azure Search to index uploaded files and provide search feature, Azure Service Bus for service integrations, Azure Logic App to send email notifications when documents are updated; and a front-end SPA implemented in React, that lets users update documents, upload files, configure a tree view, and download files.</li>
+        <li><strong>HIQMS:</strong> system to store, index, and grant access to QMS documents for the entire company (related to ISO 9000 family compliance). The system comprises a back-end using ASP.NET Core, Azure Storage to store documents and metadata in the most cost-effective way, Azure Search to index uploaded files and provide search functionality, Azure Service Bus for service integrations, and Azure Logic Apps to send email notifications when documents are updated; along with a front-end SPA implemented in React that lets users update documents, upload files, configure a tree view, and download files.</li>
         <li><strong>Signing Service:</strong> web API to generate digital signatures, using RSA keys stored in Azure Key Vault. Service implemented using ASP.NET Core, integrated with company AAD, published in Azure API Management.</li>
         <li><strong>OneCustomer:</strong> web API handling end customers information, integrated with Microsoft Graph API and Azure AAD B2C tenants.</li>
-        <li><strong>Account Service:</strong> web service responsible of serving static assets for public facing pages and HTML bodies of emails sent to Demant's end customers, and Universal Links configuration for mobile apps (Android and iOS). This service features complex CI and CD pipelines to generate contents from HTML templates and locales configured in dedicated files, using a dedicated CLI implemented using Python 3, Click, Jinja2, and other libraries.</li>
+        <li><strong>Account Service:</strong> web service responsible for serving static assets for public-facing pages and HTML bodies of emails sent to Demant's end customers, along with Universal Links configuration for mobile apps (Android and iOS). This service features complex CI and CD pipelines to generate content from HTML templates and locales configured in dedicated files, using a dedicated CLI implemented with Python 3, Click, Jinja2, and other libraries.</li>
         <li><strong>Oticon Medical Software Center</strong> ASP.NET Core API and web portal (React SPA) to handle the software distribution for Oticon Medical.</li>
         <li><strong>Demant Admin Tool</strong> web portal (React SPA), integrated with the OneCustomer API to handle CIAM (Customer Identity and Access Management) for hearing care professionals working with Demant hearing devices.</li>
       </ul>
@@ -261,23 +270,23 @@ experience:
     end: 02/2017
     employer: Accenture
     description: >-
-      Architect and tech lead for the creation of web applications and WCF services for Forex exchange and other systems for PKO BP (the biggest bank in Poland). Architect of the integration of PKO BP systems with CERTIS, the Interbank Payment System of Czech National Bank.
-      Development of four web applications, one of which a responsive application for mobile, front-ends, and WCF services. Implementation of automated deployment using GruntJS tasks. Core functionalities like localization strategy, navigation, front end using Knockout library, jQuery, Bootstrap, authorization, security (Antiforgery, Encryption, etc.).
+      Architect and tech lead for the creation of web applications and WCF services for Forex exchange and other systems for PKO BP (the largest bank in Poland). Architect of the integration of PKO BP systems with CERTIS, the Interbank Payment System of the Czech National Bank.
+      Development of four web applications, including a responsive mobile application, front-ends, and WCF services. Implementation of automated deployment using GruntJS tasks. Core functionalities including localization strategy, navigation, front-end using Knockout library, jQuery, Bootstrap, authorization, and security (Antiforgery, Encryption, etc.).
     address: Accenture office in Warsaw, Warsaw Towers ul. Sienna 39 – 00-121 Warszawa (Poland)
   - start: 08/2012
     end: 03/2014
     employer: Manpower, Avanade, Accenture
     description: >-
-      Web developer for mBank internet banking spa, JavaScript specialist.
-      Working on the modules AddressBook, Investment Funds, Dashboard, Payments for the mBank new Internet Banking; LiveSearch implementation in Payments module; navigation to Settings pages; implementation of the Facebook integration
+      Web developer for mBank internet banking SPA, JavaScript specialist.
+      Worked on the AddressBook, Investment Funds, Dashboard, and Payments modules for the new mBank Internet Banking; LiveSearch implementation in the Payments module; navigation to Settings pages; implementation of Facebook integration.
     address: Accenture office in Warsaw, Warsaw Towers ul. Sienna 39 00-121 Warszawa (Poland) / Avanade office in Milano (Italy)
   - start: 12/2011
     end: 08/2012
     employer: Reply, Vodafone
     address: Cluster Reply, Via Cardinal Massaia 83 – 10147 Torino (Italy)
     description: >-
-      C# and SQL Server desktop development for Vodafone Italy, Italian telephony company, for a GIS application made with Windows Forms. Web development of .NET web applications with ExtNet library. This work involved gathering and maintaining geographical data about GSM and UMTS coverage on Italian territory, Handover data, and other information.
-      Common activities of this job were: development of stored procedures for SQL Server, scheduling jobs to distribute data across linked servers, C#  object oriented programming. The main tools used for this job were: Microsoft Visual Studio 2010, Microsoft Visual Studio Team System 2008, SQL Server Management studio, Visual Sourcesafe, Chart FX, Janus GridEx and TatukGIS system.
+      C# and SQL Server desktop development for Vodafone Italy, an Italian telephony company, for a GIS application built with Windows Forms. Web development of .NET web applications with the ExtNet library. This work involved gathering and maintaining geographical data about GSM and UMTS coverage on Italian territory, Handover data, and other information.
+      Common activities included: development of stored procedures for SQL Server, scheduling jobs to distribute data across linked servers, and object-oriented programming in C#. The main tools used were: Microsoft Visual Studio 2010, Microsoft Visual Studio Team System 2008, SQL Server Management Studio, Visual SourceSafe, Chart FX, Janus GridEx, and TatukGIS system.
   - start: 10/2010
     end: 12/2011
     employer: Rai broadcasting company
@@ -285,12 +294,12 @@ experience:
       GFI Italia, Via Mosca 52 – 00142 Roma (earlier),
       Solgenia Group, Via Mosca 52 – 00142 Roma (later)
     description: >-
-      Web developer to build applications for Rai Italian national broadcasting company. Using: .NET Framework, VB.NET, JavaScript, HTML, CSS, SQL Server, XML, AJAX, jQuery.
-      Examples of web applications I developerd alone during this job are:
+      Web developer building applications for Rai, the Italian national broadcasting company. Technologies used: .NET Framework, VB.NET, JavaScript, HTML, CSS, SQL Server, XML, AJAX, jQuery.
+      Examples of web applications I developed independently during this position:
       <ul>
-        <li><strong>Censimento Fonia:</strong> application to manage and maintain Rai telephone numbers information;</li>
-        <li><strong>Scheda Proposta Radio:</strong> application to open, carry on and manage ticket requests about new radiophonic programs;</li>
-        <li><strong>Richieste Diritti:</strong> application to open, carry on and manage ticket requests about transmissions rights.</li>
+        <li><strong>Censimento Fonia:</strong> application to manage and maintain Rai telephone number information;</li>
+        <li><strong>Scheda Proposta Radio:</strong> application to open, process, and manage ticket requests for new radio programs;</li>
+        <li><strong>Richieste Diritti:</strong> application to open, process, and manage ticket requests for transmission rights.</li>
       </ul>
   - start: 09/2010
     end: 02/2011
@@ -298,21 +307,21 @@ experience:
     address: Via Pier Carlo Boggio 61 – 10138 Torino (Italy)
     description: >-
       Teacher of graphic design and CSS development.
-      Three hours a week lessons of graphic design, CSS, use of the GIMP and Inkscape.
+      Three hours per week of lessons on graphic design, CSS, and the use of GIMP and Inkscape.
   - start: 07/2010
     end: 09/2011
     employer: Open Vision
     address: Via Principe Tommaso 36 bis – 10125 Torino (Italy)
     description: >-
       Freelance graphic designer.
-      Job of graphic design to develop contents for e-Learning courses, for Open Vision and Sai Assicurazioni, Italian insurance company.
+      Graphic design work to develop content for e-Learning courses for Open Vision and Sai Assicurazioni, an Italian insurance company.
   - start: 04/2010
     end: 05/2010
     employer: Forma-@ttiva
     address: Via Principe Tommaso 36 bis – 10125 Torino (Italy)
     description: >-
-      Teacher of web development
-      Teaching for a 80 hours Web Development base level course (HTML, XHTML, CSS, JavaScript, W3C validated websites, web standards and usability principles).
+      Teacher of web development.
+      Teaching for an 80-hour Web Development base-level course (HTML, XHTML, CSS, JavaScript, W3C-validated websites, web standards, and usability principles).
 
 
 languages:
@@ -328,7 +337,7 @@ education:
   - name: Politecnico di Torino
     type: university
     description: >-
-      Bachelor in
+      Bachelor's degree in
       Design and Visual Communication (Industrial Design)
     address: Corso Duca degli Abruzzi, 24 10129 Torino, Italy.
     url: https://didattica.polito.it/laurea/design/en/presentation
