@@ -35,6 +35,10 @@ class JinjaGenerator:
                 self.markdown_to_html(entry) for entry in data['profile']
             ]
 
+        if 'projects' in data:
+            for item in data["projects"]:
+                item["description"] = self.markdown_to_html(item["description"])
+
         with open("./out/index.html", mode="wt", encoding="utf8") as index_file:
             index_file.write(self.render_template(template, data))
 

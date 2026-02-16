@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -10,14 +11,16 @@
     <link rel="stylesheet" href="./assets/styles.css">
     <link href="./assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
 </head>
+
 <body>
     <div id="header">
         <h1>{{name}}</h1>
         <p>{{title}}</p>
-        <img src="./assets/roberto-prevato.jpg" width="121"/>
+        <img src="./assets/roberto-prevato.jpg" width="121" />
     </div>
 
     <div>
+        <!--
         <div class="corollary">
             <div class="wrapper">
                 <h2>Skills <i class="fas fa-tools"></i></h2>
@@ -42,6 +45,7 @@
                 </dl>
             </div>
         </div>
+        -->
         <div class="main">
             <div class="wrapper">
                 <h2>Profile <i class="far fa-address-card"></i></h2>
@@ -55,25 +59,26 @@
             </div>
         </div>
         <div class="tldr">
-            <div class="page-break"></div>
             <div class="row-wrapper">
                 <h2>Experience <i class="fas fa-flask"></i></h2>
                 <dl id="experience">
-                {% for part in experience %}
-                    <dt><span class="entity">{{part.employer}}</span> <span class="period">{{part.start}} -> {{part.end}}</span></dt>
+                    {% for part in experience %}
+                    <dt><span class="entity">{{part.employer}}</span> <span class="period">{{part.start}} ->
+                            {{part.end}}</span></dt>
                     <dd>{{part.description | safe}}</dd>
                     <dd class="address">{{part.address}}</dd>
-                {% endfor %}
+                    {% endfor %}
                 </dl>
             </div>
             <div class="row-wrapper">
                 <h2>Education <i class="fas fa-university"></i></h2>
                 <dl id="experience">
-                {% for part in education %}
+                    {% for part in education %}
                     <dt><span class="entity">{{part.name}}</span></dt>
                     <dd>{{part.description}}</dd>
-                    <dd class="address">{{part.address}} <a href="{{part.url}}"><i class="fas fa-external-link-alt"></i></a></dd>
-                {% endfor %}
+                    <dd class="address">{{part.address}} <a href="{{part.url}}"><i
+                                class="fas fa-external-link-alt"></i></a></dd>
+                    {% endfor %}
                 </dl>
             </div>
             <div class="row-wrapper">
@@ -83,8 +88,11 @@
                     <li><span class="date">{{part.when}}</span> - <strong>{{part.name}}</strong></li>
                     {% endfor %}
                 </ul>
-                <em>Note: instead of demonstrating my competences collecting more certifications, today I prefer to contribute to Python and Azure communities writing technical articles and publishing code in GitHub under MIT license.</em>
+                <em>Note: instead of demonstrating my competences collecting more certifications, today I prefer to
+                    contribute to Python and Azure communities writing technical articles and publishing code in GitHub
+                    under MIT license.</em>
             </div>
+            <!--
             <div class="row-wrapper">
                 <h2>Blog posts <i class="fas fa-feather-alt"></i></h2>
                 <ul>
@@ -93,31 +101,31 @@
                     {% endfor %}
                 </ul>
             </div>
+            -->
             <div class="row-wrapper">
-                <h2>Projects, open source contributions <i class="fas fa-code-branch"></i></h2>
+                <h2>Open source contributions <i class="fas fa-code-branch"></i></h2>
                 <dl id="projects">
-                {% for part in projects %}
-                    <dt{% if "break" in part %} class="page-break-before"{% endif %}>
+                    {% for part in projects %}
+                    <dt{% if "break" in part %} class="page-break-before" {% endif %}>
                         <strong>{{part.name}}</strong>
-                    </dt>
-                    <dd>
-                        <p><span>{{part.description}}</span><br>
-                            <span class="links">
-                                {% if "href" in part %}
-                                <a href="{{part.href}}"><i class="fab fa-github"></i></a>
-                                {% endif %}
-                                {% if "npm" in part %}
-                                <a href="{{part.npm}}"><i class="fab fa-npm"></i></a>
-                                {% endif %}
-                                {% if "pypi" in part %}
-                                <a href="{{part.pypi}}"><i class="fab fa-python"></i></a>
-                                {% endif %}
-                            </span>
-                        </p>
-                    </dd>
-                {% endfor %}
+                        </dt>
+                        <dd>
+                            <p><span>{{part.description | safe}}</span>
+                                <span class="links">
+                                    {% if "href" in part %}
+                                    <a href="{{part.href}}"><i class="fab fa-github"></i></a>
+                                    {% endif %}
+                                    {% if "npm" in part %}
+                                    <a href="{{part.npm}}"><i class="fab fa-npm"></i></a>
+                                    {% endif %}
+                                    {% if "pypi" in part %}
+                                    <a href="{{part.pypi}}"><i class="fab fa-python"></i></a>
+                                    {% endif %}
+                                </span>
+                            </p>
+                        </dd>
+                        {% endfor %}
                 </dl>
-                <div class="page-break"></div>
             </div>
             <div class="row-wrapper">
                 <h2>Languages <i class="far fa-comment"></i></h2>
@@ -129,10 +137,14 @@
             </div>
             <div class="row-wrapper notes">
                 {% for part in notes %}
-                <div><h3>{{part.title}}</h3><p>{{part.text}}</p></div>
+                <div>
+                    <h3>{{part.title}}</h3>
+                    <p>{{part.text}}</p>
+                </div>
                 {% endfor %}
             </div>
         </div>
     </div>
 </body>
+
 </html>

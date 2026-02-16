@@ -16,8 +16,7 @@ profile:
     Seats. In recent years, I have played a crucial role in implementing **Azure landing
     zones** at Demant, contributing directly to the related automation. I have played a
     key role in defining Demant's **Internal Developer Platform** and **Platform
-    Engineering** strategy, contributing to the design of features for **Azure Landing
-    Zones**, **Azure DevOps**, and **GitHub Enterprise** to enable development teams to
+    Engineering** strategy, contributing to the design of features to enable development teams to
     provision and manage resources independently. I am a key contributor in implementing
     a **Cloud Community of Practice** in Demant, working on documentation and knowledge
     sharing. For example, I produced documentation and examples to describe a
@@ -26,10 +25,10 @@ profile:
     **Azure CLI**, and **PowerShell**.
 
   - >
-    Before my promotion to the Cloud Architect position, I played a key role in building
-    several web applications (both front-ends and back-ends) and web APIs for Demant,
+    Before my promotion to the Cloud Architect position, I worked on several web
+    applications (both front-ends and back-ends) and web APIs for Demant,
     often independently implementing web applications end-to-end. Examples of IT systems
-    I developed for Demant using **Azure Cloud** include: the **Signing Service API**
+    I developed for Demant using Azure include: the **Signing Service API**
     (**GxP validated**), which is used to create and verify digital signatures for firmware
     at Demant's production sites for hearing devices; the **Oticon Medical Software
     Center**, a software distribution platform for Oticon Medical integrated with both
@@ -46,13 +45,6 @@ profile:
     are two of my greatest passions, as demonstrated by my <a
     href="https://github.com/RobertoPrevato">GitHub profile</a> and employment history.
 
-
-  - >
-    During my years as a **Senior DevOps** and **Cloud Developer** at Demant, my main
-    responsibilities consisted of building back-ends in **Azure Cloud**, helping to
-    define the **global governance** for our production services, and establishing **best practices** to
-    implement, secure, and publish **APIs**.
-
   - >
     I am the author of one of today's **most performant web frameworks for Python**: <a
     href="https://github.com/Neoteroi/BlackSheep">**BlackSheep**</a>, as proven by **TechEmpower
@@ -67,28 +59,10 @@ profile:
     code is available on GitHub in the EdgeDB organization. The adoption of the CLA bot by
     the Python Software Foundation was announced by **Yury Selivanov** on Twitter.
 
-  - >
-    When building back-ends at work, I primarily code with **C#** and **Microsoft technologies**.
-    When coding in my free time, my favorite programming language is **Python** and my
-    platform of choice is **Ubuntu**.
-
-  - >
-    When creating new front-ends, I build **single-page applications**. My technology of
-    choice today is **Vue.js** with **TypeScript** and **Vite**. In the past I also used **Angular**,
-    **React**, **Knockout.js**, **Ember**, **Backbone** with **Require.js**, **Webpack**, **Grunt**, and **Gulp**. Before
-    **Node.js** was first published in 2009, I was already building front-ends using **jQuery**
-    and plain **JavaScript**.
-
-  - >
-    The reason I live in Poland is that I was hired from Italy to work on the new
-    internet banking platform for **mBank**. I was hired by **Accenture** and **Avanade** because I created a
-    Tetris web application in HTML and JavaScript, and I was considered an expert in
-    **JavaScript**.
-
 desired_position: >-
-  Cloud Architect. Contributing to APIs, DevOps, and Cloud
-  governance. Possibility to work with my favorite technologies: Azure, Python, C#,
-  TypeScript.
+  Cloud Solution Architect or Senior Solution Architect. Contributing to APIs, DevOps,
+  and Cloud governance. Possibility to work with my favorite technologies:
+  Azure, Python, C#, TypeScript.
 
 skills:
   - name: Azure
@@ -117,10 +91,6 @@ skills:
     level: 5
   - name: Node.js
     level: 5
-  - name: HTML5
-    level: 5
-  - name: CSS, SASS, Less
-    level: 5
   - name: Git
     level: 5
   - name: SQL, NoSQL
@@ -129,43 +99,6 @@ skills:
     level: 4
   - name: Markdown, UML
     level: 5
-  - name: pytest
-    level: 5
-  - name: xUnit
-    level: 5
-
-
-blog_posts:
-  - title: Self-hosted Azure DevOps agents running in Docker
-    date: 07/2019
-    url: https://robertoprevato.github.io/Self-hosted-Azure-DevOps-agents-running-in-Docker/
-  - title: Presenting BlackSheep, one of today's fastest web frameworks for Python
-    date: 06/2019
-    url: https://robertoprevato.github.io/Presenting-BlackSheep/
-  - title: Validating JSON web tokens (JWTs) from Azure AD, in Python
-    date: 10/2018
-    url: https://robertoprevato.github.io/Validating-JWT-Bearer-tokens-from-Azure-AD-in-Python/
-  - title: How I created my own media storage in Azure
-    date: 08/2018
-    url: https://robertoprevato.github.io/How-I-created-my-own-media-storage-in-Azure/
-  - title: More about Linux vs Windows hosted ASP NET Core applications in Azure Application Service Plan
-    date: 10/2017
-    url: https://robertoprevato.github.io/Upgrading-Azure-Storage-Python-SDK-to-support-asyncio/
-  - title: Comparing Linux hosted to Windows hosted ASP.NET Core applications in Azure Application Service Plan
-    date: 10/2017
-    url: https://robertoprevato.github.io/Comparing-Linux-hosted-to-Windows-hosted-ASP-NET-Core-applications-in-Azure-Application-Service-Plan/
-  - title: Running Docker applications in Azure Application Service Plan
-    date: 10/2017
-    url: https://robertoprevato.github.io/Running-Docker-applications-in-Azure/
-  - title: How to run Python PyPy powered web apps in Docker
-    date: 10/2017
-    url: https://robertoprevato.github.io/How-to-run-PyPy-powered-web-apps-in-Docker/
-  - title: How to provision Azure resources using Azure CLI 2.0 and ARM templates
-    date: 10/2017
-    href: https://robertoprevato.github.io/How-to-provision-Azure-resources-using-Azure-CLI-and-ARM-templates/
-  - title: Things I would have liked to know about Azure Search
-    date: 08/2017
-    href: https://robertoprevato.github.io/Things-I-would-have-liked-to-know-about-Azure-Search/
 
 
 projects:
@@ -174,61 +107,13 @@ projects:
     href: https://github.com/Neoteroi/BlackSheep
     pypi: https://pypi.org/project/blacksheep/
 
-  - name: AzureDevOps-agents
-    description: Images for self-hosted DevOps agents running in Docker. These agents use Ubuntu 16.04 and Ubuntu 18.04. Dockerfiles for Python, NET Core, and Node.js workloads are published in the repository.
-    href: https://github.com/RobertoPrevato/AzureDevOps-agents
-
   - name: rodi
     description: Implementation of dependency injection for Python 3, using PEP 484 and naming conventions. Unintrusive API, inspired by .NET Core dependency injection.
     href: https://github.com/Neoteroi/rodi
     pypi: https://pypi.org/project/rodi/
 
-  - name: essentials-configuration
-    description: Key-value pair based configuration for Python applications, inspired by the solution implemented to handle configuration in .NET Core.
-    href: https://github.com/Neoteroi/essentials-configuration
-    pypi: https://pypi.org/project/essentials-configuration/
-
-  - name: KingTable
-    description: Library for administrative tables that are able to build themselves, on the basis of the input data.
-    href: https://github.com/RobertoPrevato/KingTable
-    npm: https://www.npmjs.com/package/kingtable
-    break: true
-  - name: jQuery-KingTable
-    description: jQuery plugin for administrative tables that are able to build themselves, on the basis of the input data.
-    href: https://github.com/RobertoPrevato/jQuery-KingTable
-
-  - name: DataEntry
-    description: Forms validation library that implements Promise-based validation of fields and forms, automatic decoration of fields, and localized error messages. Integrable with Angular, Backbone, Knockout, React, and Vue.js. Examples for use with React and Vue.js are provided in dedicated repositories.
-    href: https://github.com/RobertoPrevato/DataEntry
-    npm: https://www.npmjs.com/package/dataentry
-
-  - name: GuardPost
-    description: Basic framework to handle authentication and authorization in any kind of Python application, inspired by authentication and authorization in ASP.NET Core.
-    href: https://github.com/Neoteroi/GuardPost
-    pypi: https://pypi.org/project/guardpost/
-
-  - name: Gallerist
-    description: Classes and methods to handle pictures for the web, using Python Pillow to resize pictures to desired sizes. Gallerist is an abstraction layer on top of Pillow to simplify the task of resizing original pictures into various sizes for the web.
-    href: https://github.com/Neoteroi/Gallerist
-    pypi: https://pypi.org/project/gallerist
-
-  - name: Gallerist-AzureStorage
-    description: Classes to handle pictures stored in Azure Storage Blob Service with Gallerist.
-    href: https://github.com/Neoteroi/Gallerist-AzureStorage
-    pypi: https://pypi.org/project/gallerist-azurestorage/
-
-  - name: Gallerist-AzureFunctions
-    description: Python Azure Functions v2 to process images for the web. This repository contains a ready-to-use solution to have resizing of pictures in the serverless service offered by Microsoft.
-    href: https://github.com/Neoteroi/Gallerist-AzureFunctions
-
-  - name: wrktoolbox
-    description: wrktoolbox is a tool to run benchmarks with wrk and wrk2, parse and store their results, and generate reports. I provided Dockerfiles to use wrk and wrk2 on Alpine and Ubuntu. wrktoolbox is designed to be used in Docker containers in services like Azure Container Instances to run load tests from multiple locations around the world.
-    href: https://github.com/RobertoPrevato/wrktoolbox
-    pypi: https://pypi.org/project/wrktools/
-
-out:
-  - name: And others...
-    description: Other contributions include a lightweight solution to implement localization in web applications (I.js), a tool to convert pictures into Base64-encoded strings, and a solution for dependency injection in 100 lines of JavaScript (R.js).
+  - name: And more...
+    description: More information is available on my [GitHub Profile](https://github.com/RobertoPrevato/).
     href: https://github.com/RobertoPrevato/
 
 
@@ -278,13 +163,6 @@ experience:
       Web developer for mBank internet banking SPA, JavaScript specialist.
       Worked on the AddressBook, Investment Funds, Dashboard, and Payments modules for the new mBank Internet Banking; LiveSearch implementation in the Payments module; navigation to Settings pages; implementation of Facebook integration.
     address: Accenture office in Warsaw, Warsaw Towers ul. Sienna 39 00-121 Warszawa (Poland) / Avanade office in Milano (Italy)
-  - start: 12/2011
-    end: 08/2012
-    employer: Reply, Vodafone
-    address: Cluster Reply, Via Cardinal Massaia 83 – 10147 Torino (Italy)
-    description: >-
-      C# and SQL Server desktop development for Vodafone Italy, an Italian telephony company, for a GIS application built with Windows Forms. Web development of .NET web applications with the ExtNet library. This work involved gathering and maintaining geographical data about GSM and UMTS coverage on Italian territory, Handover data, and other information.
-      Common activities included: development of stored procedures for SQL Server, scheduling jobs to distribute data across linked servers, and object-oriented programming in C#. The main tools used were: Microsoft Visual Studio 2010, Microsoft Visual Studio Team System 2008, SQL Server Management Studio, Visual SourceSafe, Chart FX, Janus GridEx, and TatukGIS system.
   - start: 10/2010
     end: 12/2011
     employer: Rai broadcasting company
@@ -292,34 +170,7 @@ experience:
       GFI Italia, Via Mosca 52 – 00142 Roma (earlier),
       Solgenia Group, Via Mosca 52 – 00142 Roma (later)
     description: >-
-      Web developer building applications for Rai, the Italian national broadcasting company. Technologies used: .NET Framework, VB.NET, JavaScript, HTML, CSS, SQL Server, XML, AJAX, jQuery.
-      Examples of web applications I developed independently during this position:
-      <ul>
-        <li><strong>Censimento Fonia:</strong> application to manage and maintain Rai telephone number information;</li>
-        <li><strong>Scheda Proposta Radio:</strong> application to open, process, and manage ticket requests for new radio programs;</li>
-        <li><strong>Richieste Diritti:</strong> application to open, process, and manage ticket requests for transmission rights.</li>
-      </ul>
-  - start: 09/2010
-    end: 02/2011
-    employer: ISMB (Istituto Superiore Mario Boella)
-    address: Via Pier Carlo Boggio 61 – 10138 Torino (Italy)
-    description: >-
-      Teacher of graphic design and CSS development.
-      Three hours per week of lessons on graphic design, CSS, and the use of GIMP and Inkscape.
-  - start: 07/2010
-    end: 09/2011
-    employer: Open Vision
-    address: Via Principe Tommaso 36 bis – 10125 Torino (Italy)
-    description: >-
-      Freelance graphic designer.
-      Graphic design work to develop content for e-Learning courses for Open Vision and Sai Assicurazioni, an Italian insurance company.
-  - start: 04/2010
-    end: 05/2010
-    employer: Forma-@ttiva
-    address: Via Principe Tommaso 36 bis – 10125 Torino (Italy)
-    description: >-
-      Teacher of web development.
-      Teaching for an 80-hour Web Development base-level course (HTML, XHTML, CSS, JavaScript, W3C-validated websites, web standards, and usability principles).
+      Web developer building applications for Rai, the Italian national broadcasting company, using .NET Framework, VB.NET, JavaScript, HTML, CSS, SQL Server, XML, AJAX, and jQuery. Independently developed several web applications including systems for managing telephone information, processing ticket requests for radio programs, and handling transmission rights requests.
 
 
 languages:
@@ -376,9 +227,3 @@ contacts:
   - value: Blog
     icon: fas fa-feather-alt
     url: https://robertoprevato.github.io
-
-
-notes:
-  - title: According to Insights Discovery...
-    text: >-
-      I am an Inspiring Helper (Conscious Wheel Position); Supporting Helper (Less Conscious Wheel Position); all my colors are at similar levels, with dominance of yellow and green. If desired, I can share my Gallup’s StrengthsFinder results from 2016 and Insights Discovery results from 2017.

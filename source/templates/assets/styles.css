@@ -1,5 +1,5 @@
 @media print {
-    @page { 
+    @page {
         margin: 20mm 25mm 20mm 25mm;
     }
 
@@ -37,7 +37,7 @@ body{
     position: relative;
     /*
     PDF becomes very heavy when background images are used instead of img elements; curious...
-    
+
     background-image: url('roberto-prevato.jpg');
     background-position-y: top;
     background-position-x: right;
@@ -64,6 +64,7 @@ body{
     padding-left: 0;
 }
 
+/*
 .main {
     margin-left: 7cm;
     min-height: 90vh;
@@ -72,7 +73,7 @@ body{
 .wrapper {
     padding: 0.5cm 1cm 0 1cm;
 }
-
+*/
 h1, h2, h3, h4 {
     font-family: Roboto;
     /*font-family: Montserrat;*/
