@@ -1,17 +1,17 @@
 name: Roberto Prevato
-title: Cloud Solutions Architect
-picture: ... link to GitHub gist, or to public endpoint in Azure Blob Service?
+title: Cloud Solution Architect
+picture: ...
 
 profile:
   - >
-    Since February 2022 I work as Cloud Solutions Architect, in the Cloud Center of
+    Since February 2022 I work as Cloud Solution Architect, in the Cloud Center of
     Excellence team in Demant. In Demant, which is one of the two leading companies in
     hearing healthcare, I've been made responsible of the Azure tenant as a whole -
-    meaning that I have the last word in case of disputes regarding how governance
-    should be done in our tenant. I am also one of the main administrators of our Azure
+    meaning that I have the last word in case of disputes regarding governance
+    in our Azure tenant. I am also one of the main administrators of our Azure
     DevOps organizations, and our GitHub Enterprise account. In August 2023 I configured
-    personally the integration between our Entra ID tenant and our GitHub Enterprise
-    account with Enterprise Managed Users, and the most important settings of our GitHub
+    personally the integration between our Entra ID tenant and Demant's GitHub Enterprise
+    Managed Users account, and the most important settings of our GitHub
     account to enable Copilot and Codespaces. In the last months I have worked to
     implement Azure landing zones and the adoption of the enterprise scale reference
     architecture from Microsoft in Demant, helping automating things such as creation of
@@ -41,9 +41,7 @@ profile:
     benchmarks even since its first implementations. This gave me the opportunity to
     work part-time with Łukasz Langa (former Python release manager and Python Core
     Developer) and Yury Selivanov (also Python Core developer), in EdgeDB. The adventure
-    in EdgeDB lasted only 8 months, in 2020, while still working full time for Demant.
-    Good performance in my web framework is achieved using C extensions for Python, and
-    libraries written in C for CPU intensive operations.
+    in EdgeDB lasted only 8 months, in 2020, while I was still working full time for Demant.
 
   - >
     During the work in EdgeDB I implemented a Contributor License Agreement (CLA) bot
