@@ -6,62 +6,60 @@ profile:
   - >
     I currently work as a **Cloud Solution Architect** in the **Cloud Center of
     Excellence** team at **Demant**, a role I was promoted to in February 2022 after
-    working as **Senior DevOps** and **Senior Cloud Developer**. In Demant, which is one
-    of the two leading companies in hearing healthcare, I am responsible for overall
-    governance of the **Azure** tenant. I am also one of the main administrators of Demant's
-    **Azure DevOps** organizations and **GitHub Enterprise** account. In August 2023 I
-    configured the integration between our **Entra ID** tenant and Demant's
-    **GitHub Enterprise Managed Users** account and assigned the first GitHub Copilot
-    Seats. In recent years, I have played a crucial role in implementing **Azure landing zones**
-    at Demant, contributing to the related automation. I helped defining
-    an **Internal Developer Platform** and **Platform Engineering** strategy,
-    contributing to the design of features to enable development teams to
-    provision and manage resources independently. I actively contribute to implementing
-    a **Cloud Community of Practice** in Demant, working on documentation and knowledge
-    sharing. For example, I produced documentation and examples to describe a
-    recommended strategy for automating deployments to **Azure API Management**. I
-    regularly work on **Infrastructure as Code** using **YAML Pipelines**, **Bash**,
-    **Azure CLI**, and **PowerShell**.
+    working as **Senior DevOps** and **Senior Cloud Developer**.
 
   - >
-    Before my promotion to the Cloud Architect position, I worked on several web
-    applications (both front-ends and back-ends) and web APIs for Demant,
-    often implementing web applications end-to-end. Examples of IT systems
-    I developed for Demant using Azure include: the **Signing Service API**
-    (**GxP validated**), which is used to create and verify digital signatures for firmware
-    at Demant's production sites for hearing devices; the **Oticon Medical Software
-    Center**, a software distribution platform for Oticon Medical integrated with both
-    **Entra ID** and **Azure AD B2C**; and **HIQMS** (**GxP validated**), a
-    system used to store and share documents for our **QMS (Quality Management System)**.
-    Other examples are a portal to handle **CIAM** (Customer Identity and Access
-    Management) for hearing care professionals (project name: **Demant Admin Tool**), web
-    APIs to serve localized content for mobile apps used by end customers (project name:
-    **Account WebFace**), and automation for administering Demant's central
-    Azure API Management service.
+    - Led **Azure governance** for the global tenant supporting all business units, improving compliance.
 
-    I am a specialist in **web applications**, with a deep understanding of **HTTP web servers**,
-    clients, **web frameworks**, and browsers. I have a generalist profile, with more than **10
-    years of experience** in building back-ends and front-ends. **Web development** and **coding**
-    are two of my passions, as demonstrated by my <a href="https://github.com/RobertoPrevato">GitHub profile</a> and employment history.
+    - Acted as **Technical Leader** and handled the design phase for **Azure Landing Zones** with Avanade and Demant stakeholders.
+
+    - Contributed personally to the design and implementation of **Azure Landing Zones** at Demant, including the **Hub & Spoke** network architecture in Azure.
+
+    - Maintained **IaC pipelines** with YAML, Bash, PowerShell, Azure CLI, improving deployment reliability and reducing manual operations.
+
+    - Integrated **Entra ID** with **GitHub Enterprise Managed Users**, enabling centralized identity governance and assigning the first **GitHub Copilot** seats (today almost 600).
+
+    - Developed automation and documentation for the central Demant **API Gateway** (**Azure API Management**).
+
+    - Maintained **IaC pipelines** with YAML, Bash, PowerShell, Azure CLI, improving deployment reliability and reducing manual operations.
 
   - >
-    I am the author of one of today's **most performant web frameworks for Python**: <a
-    href="https://github.com/Neoteroi/BlackSheep">**BlackSheep**</a>, as proven by **TechEmpower
-    benchmarks** since its first implementations. This gave me the opportunity to
-    work part-time with **Łukasz Langa** (former Python release manager and Python Core
-    Developer) and **Yury Selivanov** (also a Python Core developer) at **EdgeDB**. The position
-    at EdgeDB lasted only 8 months, in 2020, while I was still working full-time for Demant.
+    Before my promotion to the Cloud Architect position, I delivered multiple
+    end-to-end web applications and APIs for Demant on Azure, directly enabling
+    critical business capabilities:
+
+      - **Signing Service API** (**GxP validated**) — secures firmware integrity at Demant's global production sites for hearing devices through digital signature creation and verification.
+      - **Oticon Medical Software Center** — software distribution platform for Oticon Medical (I developed the whole web front-end and web API ground-up, collecting business requirements from stakeholders).
+      - **HIQMS** (**GxP validated**) — centralized QMS document management (full web app consisting of front-end and back-end), improving compliance and document accessibility across the company.
+      - **Demant Admin Tool** — a web portal to administer Hearing Care Professionals accounts and Hearing Care Businesses (**CIAM** capabilities).
+      - **Account WebFace** — enabled localized content delivery to end-customer mobile apps.
+      - **Azure API Management automation** — administered personally the automation and deployment for Demant's central API Gateway.
+      - And more, omitted for brevity…
+
+    With more than **10 years of experience** building back-ends and front-ends, I bring
+    deep expertise in **HTTP web servers**, **web frameworks**, and browsers, consistently
+    translating that knowledge into production systems that drive business value.
+    **Web development** and **coding** are two of my passions, as demonstrated by my
+    <a href="https://github.com/RobertoPrevato">GitHub profile</a> and employment history.
 
   - >
-    During my work at EdgeDB I implemented a **Contributor License Agreement (CLA) bot**
-    for GitHub, which is now also used by the **Python Software Foundation**. The source
-    code is available on GitHub in the EdgeDB organization. The adoption of the CLA bot by
-    the Python Software Foundation was announced by **Yury Selivanov** on Twitter.
+    I created <a href="https://github.com/Neoteroi/BlackSheep">**BlackSheep**</a>,
+    one of today's **most performant web frameworks for Python**, consistently ranking
+    among the top performers in **TechEmpower benchmarks** since its first release.
+    This achievement led to a collaboration with **Łukasz Langa** (former Python release
+    manager and Python Core Developer) and **Yury Selivanov** (also a Python Core developer)
+    at **EdgeDB**, where I contributed part-time in 2020 while still working full-time for Demant.
+
+  - >
+    At EdgeDB I built a **Contributor License Agreement (CLA) bot** for GitHub that was
+    subsequently adopted by the **Python Software Foundation**, streamlining contributor
+    onboarding for one of the world's largest open-source communities. The adoption was
+    publicly announced by **Yury Selivanov** on Twitter, and the source code remains
+    available on GitHub in the EdgeDB organization.
 
 desired_position: >-
-  Cloud Solution Architect or Senior Solution Architect. Contributing to APIs, DevOps,
-  and Cloud governance. Possibility to work with my favorite technologies:
-  Azure, Python, C#, TypeScript.
+  Technical leadership position such as Cloud Solution Architect or Senior Solution Architect,
+  contributing to APIs, DevOps, and Cloud governance.
 
 skills:
   - name: Azure
